@@ -2,10 +2,10 @@
 
 import requests
 from datetime import datetime, date
-from BaseWeatherAPI import BaseClassAPI
+from BaseWeatherAPI import BaseWeatherAPI
 
 
-class OpenWeatherAPI(BaseClassAPI):
+class OpenWeatherAPI(BaseWeatherAPI):
     API_KEY = "dda8da3e457ddaa3f2db53e90a042e88"
 
     request_url = f"https://api.openweathermap.org/data/2.5/weather?zip=8230,at&appid={API_KEY}&lang=de"
@@ -16,10 +16,12 @@ class OpenWeatherAPI(BaseClassAPI):
         self.calls = []
         my_dict = {
             "city_name": data["name"],
-            "temperature": round(data["main"]["temp"]-274.15),
-            "humidity": float(data["main"]["humidity"]),
-            "date_": date.today(),
             "time": datetime.now(),
+            "date_": date.today(),
+            "temp": int(round(data["main"]["temp"]-274.15)),
+            "humidity": float(data["main"]["humidity"]),
+            "description": str(data["weather"][0]["description"]),
+            "plz": str(data["sys"]["id"])
         }
         self.calls.append(my_dict)
 
