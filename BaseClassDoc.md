@@ -10,6 +10,6 @@
 ### How to implement
 from BaseClassAPI import BaseClassAPI
 
-class ExampleAPI(BaseClassAPI):
+class ExampleAPI(BaseClassAPI): <br />
   def getWeather(self): <br />
-    # own implementation <br />
+    # own implementation
