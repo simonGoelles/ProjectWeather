@@ -7,6 +7,7 @@ self.calls is a List of Dictionaries
 Example Dictionary:
 {
     "city_name": in str
+    "plz": city id in str
     "time": in hh-mm-ss
     "date": in dd-mm-yyyy
     "temp": celsius in int
