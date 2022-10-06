@@ -2,12 +2,17 @@
 
 class BaseWeatherAPI:
     def _init_(self, location = None, plz = None):
-        self.called = False
-        self.city_name = None
-        self.time = None
-        self.temp = None
-        self.humidity = None
-        self.date = None
+        """
+self.calls is a List of Dictionaries
+Example Dictionary:
+{
+    "city_name": in str
+    "time": in hh-mm-ss
+    "date": in dd-mm-yyyy
+    "temp": celsius in int
+    "humidity": in percent in int from 0 - 1
+}"""
+        self.calls
 
     def getWeather(self):
         """Set the member variables and raise Error if city not found."""
