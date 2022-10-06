@@ -11,6 +11,7 @@ Example Dictionary:
     "date": in dd-mm-yyyy
     "temp": celsius in int
     "humidity": in percent in float from 0 - 1
+    "description": a short description about the weather in str
 }
 """
         self.calls = []
