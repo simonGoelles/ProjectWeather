@@ -13,6 +13,7 @@ Example Dictionary:<br />
 &emsp;"temp": celsius in int<br />
 &emsp;"humidity": in percent in float from 0 - 1<br />
 &emsp;"description": a short description about the weather in str<br />
+&emsp;"plz": city id in str<br />
 }<br />
 <br />
 
