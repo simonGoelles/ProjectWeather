@@ -11,11 +11,15 @@ Example Dictionary:
     "date": in dd-mm-yyyy
     "temp": celsius in int
     "humidity": in percent in int from 0 - 1
-}"""
-        self.calls
+}
+"""
+        self.calls = []
 
     def getWeather(self):
-        """Set the member variables and raise Error if city not found."""
+        """Set the member variables and raise Error if city not found.
+Example for Error = City Weiz not found.
+"""
+        
         pass
 
 
