@@ -10,8 +10,9 @@ class OpenWeatherAPI(BaseClassAPI):
 
     request_url = f"https://api.openweathermap.org/data/2.5/weather?zip={zip_code},at&appid={API_KEY}&lang=de"
     data = requests.get(request_url).json()
+    response = requests.get(request_url)
         
-    def getWeather(self, data):
+    def getWeather(self, data, response):
         self.calls = []
         my_dict = {
             "city_name": data["name"],
@@ -22,4 +23,5 @@ class OpenWeatherAPI(BaseClassAPI):
         }
         self.calls.append(my_dict)
 
-       
+        if response.status_code == 404:
+            raise Exception("City %s not Found" %data["name"])
