@@ -10,7 +10,7 @@ Example Dictionary:
     "time": in hh-mm-ss
     "date": in dd-mm-yyyy
     "temp": celsius in int
-    "humidity": in percent in int from 0 - 1
+    "humidity": in percent in float from 0 - 1
 }
 """
         self.calls = []
