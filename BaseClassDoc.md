@@ -11,5 +11,5 @@
 from BaseClassAPI import BaseClassAPI
 
 class ExampleAPI(BaseClassAPI):
-&nbsp;def getWeather(self):
-&nbsp;&nbsp;own implementation
+  def getWeather(self): <br />
+    # own implementation <br />
