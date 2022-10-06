@@ -11,7 +11,7 @@ Example Dictionary:<br />
 &emsp;"time": in hh-mm-ss<br />
 &emsp;"date": in dd-mm-yyyy<br />
 &emsp;"temp": celsius in int<br />
-&emsp;"humidity": in percent in int from 0 - 1<br />
+&emsp;"humidity": in percent in float from 0 - 1<br />
 }<br />
 <br />
 
