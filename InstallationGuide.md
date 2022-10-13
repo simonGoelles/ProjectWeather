@@ -1,5 +1,5 @@
 # Installatin Guide
 
 
-##Weather-Bit:
+## Weather-Bit:
   - pip install python-weatherbit
