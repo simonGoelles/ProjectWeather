@@ -27,8 +27,7 @@ class WttrClass(BaseWeatherAPI):
 
     plz = "at-" + _input
 
-    asyncio.run(getweather(plz))
-    print(city_name)
+    asyncio.run(getWeather(plz))
 
     async def getWeather(self, plz: str):
         self.calls = []
