@@ -26,4 +26,4 @@ class OpenWeatherAPI(BaseWeatherAPI):
         self.calls.append(weather_dict)
 
         if response.status_code == 404:
-            raise Exception("City %s not Found" %str(data["name"]))
+            raise Exception("City not Found")
