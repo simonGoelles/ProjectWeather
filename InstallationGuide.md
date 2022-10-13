@@ -1,4 +1,4 @@
-# Installatin Guide
+# Installation Guide
 
 
 ## Weather-Bit:
