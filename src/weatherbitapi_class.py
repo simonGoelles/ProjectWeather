@@ -1,9 +1,9 @@
-from BaseWeatherAPI import BaseClassAPI
+from BaseWeatherAPI import BaseWeatherAPI
 from weatherbit.api import Api
 
-class Weatherbit(BaseClassAPI):
+class Weatherbit(BaseWeatherAPI):
     def getWeather(self):
-        api = api("153deb764f8543b99bdd215ecf52b3db")
+        api = Api("153deb764f8543b99bdd215ecf52b3db")
         api.set_granularity('daily')
         postcode = "8062"
         country = "Austria"
@@ -20,7 +20,7 @@ class Weatherbit(BaseClassAPI):
                 "plz": ""
         }
 
-        current_weather = api.qget_current(postal_code=postcode, country=country)
+        current_weather = api.get_current(postal_code=postcode, country=country)
         current_weatherList = current_weather.get(['weather','temp','rh'])
 
         forecast = api.get_forecast(postal_code=postcode, country=country)
