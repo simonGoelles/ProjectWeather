@@ -15,8 +15,8 @@ class OpenWeatherAPI(BaseWeatherAPI):
     def getWeather(self, data, response):
         self.calls = []
         my_dict = {
-            "city_name": data["name"],
-            "time": datetime.now(),
+            "city_name": str(data["name"]),
+            "time": str(datetime.now().strftime('%H:%M:%S')),
             "date_": date.today(),
             "temp": int(round(data["main"]["temp"]-274.15)),
             "humidity": float(data["main"]["humidity"]),
@@ -26,4 +26,4 @@ class OpenWeatherAPI(BaseWeatherAPI):
         self.calls.append(my_dict)
 
         if response.status_code == 404:
-            raise Exception("City %s not Found" %data["name"])
+            raise Exception("City %s not Found" %str(data["name"]))
