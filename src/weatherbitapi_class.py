@@ -3,10 +3,11 @@ from weatherbit.api import Api
 
 class Weatherbit(BaseWeatherAPI):
     def getWeather(self):
-        api = Api("153deb764f8543b99bdd215ecf52b3db")
+        api = Api('a94e9638d04e4330bd1adc5da19169b3')
         api.set_granularity('daily')
         postcode = "8062"
         country = "Austria"
+        self.calls = []
         temp_dict_list = []
 
 
@@ -28,7 +29,7 @@ class Weatherbit(BaseWeatherAPI):
 
         # Current Weather
         temp = current_weatherList[0].get("temp")
-        datelist = current_weatherList[0].get("datetime").split(" ")
+        datelist = str(current_weatherList[0].get("datetime")).split(" ")
         date = datelist[0]
         time = datelist[1]
         humidity = current_weatherList[0].get("rh")
@@ -45,7 +46,7 @@ class Weatherbit(BaseWeatherAPI):
         }
         self.calls.append(current_weather_dict)
 
-
+"""
         # Forecast Weather
         for i in range(0,3):
             templist = []
@@ -59,7 +60,7 @@ class Weatherbit(BaseWeatherAPI):
 
             description_forecast = forecastList[i].get("weather").get("description")
             humidity_forecast = forecastList[i].get("rh")
-            datelist_forecast = forecastList[i].get("datetime").split(" ")
+            datelist_forecast = str(forecastList[i].get("datetime")).split(" ")
             dateforecast = datelist_forecast[i]
             timeforcast = datelist_forecast[i]
 
@@ -72,6 +73,6 @@ class Weatherbit(BaseWeatherAPI):
                 "description": description_forecast,
                 "plz": postcode
             }
-            super().calls.append(temp_weather_dict)
-
+            self.calls.append(temp_weather_dict)
+"""
         
