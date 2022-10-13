@@ -1,4 +1,5 @@
 # Installation Guide
 
 ### Wetter-Bit:
-* in terminal: pip install python-weatherbit
+
+  in terminal: pip install python-weatherbit
