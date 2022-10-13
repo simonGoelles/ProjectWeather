@@ -44,5 +44,5 @@ class WttrClass(BaseWeatherAPI):
             }
             self.calls.append(weather_dict)
 
-            if self.city_name == Oimjakon:
+            if self.city_name == "Oimjakon":
                 raise Exception("City %s not Found" %str())
