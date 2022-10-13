@@ -29,12 +29,12 @@ class WttrClass(BaseWeatherAPI):
 
     plz = "at-" + _input
 
-    async def getWeather(self, plz: str):
+    async def getWeather(self, plz: str, city_name):
         async with python_weather.Client(format=python_weather.METRIC) as client:
             self.calls = []
             weather = await client.get(plz)
             weather_dict = {
-                "city_name": str(city_name),
+                "city_name": str(self.city_name),
                 "time": str(weather.current.local_time),
                 "date_": str(date),
                 "temp": int(weather.current.temperature),
@@ -44,5 +44,5 @@ class WttrClass(BaseWeatherAPI):
             }
             self.calls.append(weather_dict)
 
-            if city_name == Oimjakon:
+            if self.city_name == Oimjakon:
                 raise Exception("City %s not Found" %str())
