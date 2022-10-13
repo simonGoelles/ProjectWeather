@@ -43,7 +43,7 @@ class Weatherbit(BaseWeatherAPI):
             "description": description,
             "plz": postcode
         }
-        super().calls.append(current_weather_dict)
+        self.calls.append(current_weather_dict)
 
 
         # Forecast Weather
