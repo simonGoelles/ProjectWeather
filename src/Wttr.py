@@ -8,6 +8,8 @@ from openpyxl import load_workbook
 
 class WttrClass(BaseWeatherAPI):
 
+
+
     wb = load_workbook(filename="PLZ_Verzeichnis.xlsx")
     sheet_ranges = wb["Plz_Anhang"]
     sheet = wb.active
@@ -28,17 +30,19 @@ class WttrClass(BaseWeatherAPI):
     plz = "at-" + _input
 
     async def getWeather(self, plz: str):
-        self.calls = []
-        weather_dict = {
-            "city_name": str(city_name),
-            "time": str(weather.current.local_time),
-            "date_": str(date),
-            "temp": int(weather.current.temperature),
-            "humidity": float(weather.current.humidity),
-            "description": str(weather.current.description),
-            "plz": str(plz)
-        }
-        self.calls.append(weather_dict)
+        async with python_weather.Client(format=python_weather.METRIC) as client:
+            self.calls = []
+            weather = await client.get(plz)
+            weather_dict = {
+                "city_name": str(city_name),
+                "time": str(weather.current.local_time),
+                "date_": str(date),
+                "temp": int(weather.current.temperature),
+                "humidity": float(weather.current.humidity),
+                "description": str(weather.current.description),
+                "plz": str(plz)
+            }
+            self.calls.append(weather_dict)
 
-        if city_name == Oimjakon:
-            raise Exception("City %s not Found" %str())
+            if city_name == Oimjakon:
+                raise Exception("City %s not Found" %str())
