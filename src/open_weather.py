@@ -12,11 +12,11 @@ class OpenWeatherAPI(BaseWeatherAPI):
         request_url = f"https://api.openweathermap.org/data/2.5/weather?zip=8230,at&appid={API_KEY}&lang=de"
         data = requests.get(request_url).json()
         response = requests.get(request_url)
-        super().calls = []
+        self.calls = []
         weather_dict = {
             "city_name": str(data["name"]),
             "time": str(datetime.now().strftime('%H:%M:%S')),
-            "date_": str(date.today()),
+            "date": str(date.today()),
             "temp": int(round(data["main"]["temp"]-274.15)),
             "humidity": float(data["main"]["humidity"]),
             "description": str(data["weather"][0]["description"]),
