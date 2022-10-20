@@ -18,7 +18,7 @@ class OpenWeatherAPI(BaseWeatherAPI):
         weather_dict = {
             "city_name": str(data["name"]),
             "time": str(datetime.now().strftime('%H:%M:%S')),
-            "date": str(date.today()),
+            "date": f"{date.today().day}-{date.today().month}-{date.today().year}",
             "temp": int(round(data["main"]["temp"]-274.15)),
             "humidity": float(data["main"]["humidity"]),
             "description": str(data["weather"][0]["description"]),

@@ -1,6 +1,6 @@
 from open_weather import OpenWeatherAPI
-from weatherbitapi_class import Weatherbit
 from Wttr import WttrClass
+# from weatherbitapi_class import Weatherbit
 
 import warnings
 warnings.filterwarnings("ignore")
