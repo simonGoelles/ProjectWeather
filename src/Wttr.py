@@ -9,13 +9,13 @@ from BaseWeatherAPI import BaseWeatherAPI
 
 
 class WttrClass(BaseWeatherAPI):
-    def __init__(self) -> None:
+    def __init__(self, _input) -> None:
         self.calls = []
         wb = load_workbook(filename="src/PLZ_Verzeichnis.xlsx")
         sheet_ranges = wb["Plz_Anhang"]
         sheet = wb.active
 
-        _input = "8160"  # input("Plz: ")
+        # _input = "8160"  # input("Plz: ")
 
         # print(sheet_ranges.column_dimensions)
         self.city_name = "Weiz"
