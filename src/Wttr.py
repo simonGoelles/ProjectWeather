@@ -30,13 +30,21 @@ class WttrClass(BaseWeatherAPI):
 
         self.plz = "at-" + _input
 
-    async def getWeather(self):
+    def getWeather(self):
+        return asyncio.run(self._getWeather())
+
+    async def _getWeather(self):
         async with python_weather.Client(format=python_weather.METRIC) as client:
             weather = await client.get(self.plz)
+            _date = ""
+            for forecast in weather.forecasts:
+                _date = forecast.date
+                break
+
             weather_dict = {
                 "city_name": str(self.city_name),
                 "time": str(weather.current.local_time),
-                "date": str(date),
+                "date": str(_date),
                 "temp": int(weather.current.temperature),
                 "humidity": float(weather.current.humidity),
                 "description": str(weather.current.description),
