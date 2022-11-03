@@ -14,3 +14,5 @@ Besprechung und Planung der Dokumentationsart die fortlaufend verwendet wird.
 ## Dokumentation
 ### 03.11.2022, 10:25 - 10:50
 Setup der Dokumentationen und der "Beispiel-Dokumentation"
+
+
