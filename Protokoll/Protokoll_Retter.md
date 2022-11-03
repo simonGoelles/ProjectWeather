@@ -6,6 +6,6 @@
 Kreation der Django-App.
 
 
-## Dokumentation
+## Protokoll
 ### 03.11.2022, 10:00 - 10:25
-Besprechung und Planung der Dokumentationsart die fortlaufend verwendet wird.
+Planung der Protokollierungsart die fortlaufend verwendet wird.
