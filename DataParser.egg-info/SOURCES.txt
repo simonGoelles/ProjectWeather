@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+DataParser.egg-info/PKG-INFO
+DataParser.egg-info/SOURCES.txt
+DataParser.egg-info/dependency_links.txt
+DataParser.egg-info/not-zip-safe
+DataParser.egg-info/requires.txt
+DataParser.egg-info/top_level.txt
+src/BaseWeatherAPI.py
+src/Wttr.py
+src/__init__.py
+src/main.py
+src/open_weather.py
+src/weatherbitapi_class.py
