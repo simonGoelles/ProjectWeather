@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: DataParser
+Version: 1.0.0
+Summary: Create da dataparser.
+Home-page: https://github.com
+Author: Robert Ulmer
+Author-email: rulmer@lr.htlweiz.at
+Keywords: logging,pytest,school,file,parser,output,input
