@@ -8,7 +8,7 @@ from BaseWeatherAPI import BaseWeatherAPI
 class OpenWeatherAPI(BaseWeatherAPI):
     def __init__(self, _plz):
         self.plz = _plz
-    
+
     def getWeather(self):
         API_KEY = "dda8da3e457ddaa3f2db53e90a042e88"
         request_url = f"https://api.openweathermap.org/data/2.5/weather?zip={self.plz},at&appid={API_KEY}&lang=de"
