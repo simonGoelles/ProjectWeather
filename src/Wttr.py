@@ -5,7 +5,7 @@ from datetime import date
 import python_weather
 from openpyxl import load_workbook
 
-from BaseWeatherAPI import BaseWeatherAPI
+from .BaseWeatherAPI import BaseWeatherAPI
 
 
 class WttrClass(BaseWeatherAPI):
