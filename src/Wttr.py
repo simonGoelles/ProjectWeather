@@ -43,7 +43,6 @@ class WttrClass(BaseWeatherAPI):
 
                 weather_dict = {
                     "city_name": str(self.city_name),
-                    "time": f"{weather.current.local_time.hour}:{weather.current.local_time.minute}:{weather.current.local_time.second}",
                     "date": f"{_date.day}-{_date.month}-{_date.year}",
                     "temp": int(forecast.temperature), # int(weather.current.temperature),
                     "humidity": float(weather.current.humidity),
