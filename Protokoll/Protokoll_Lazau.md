@@ -8,9 +8,10 @@ Organisatorisches:
 -Frontend Dokumentation
 -Pflichtenheft Besprechung
 
-## Team
-### dd-mm-hhhh, 11:30 - 13:15
-I did something ...
+## Frontend
+### 10.11.2022 11:30 - 13:15
+-Angular Projekt angelegt
+
 
 ## Team
 ### dd-mm-hhhh, 11:30 - 13:15
