@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from src import WttrClass
+from src import CityNotFound, WttrClass
 
 # Create your views here.
 def index(request):
@@ -8,6 +8,7 @@ def index(request):
 
 def weather_api(request):
     if request.method == 'POST':
+        output = ""
         m_plz = request.POST.get('plz', None)
 
         _wttr = WttrClass(m_plz)
