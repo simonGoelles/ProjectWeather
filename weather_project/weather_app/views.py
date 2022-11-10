@@ -1,4 +1,5 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponse
 from src import CityNotFound, WttrClass
 
@@ -25,3 +26,34 @@ def weather_api(request):
 
         return HttpResponse(output)
     return HttpResponse("no")
+
+def login(request):
+    return render(request, 'html/login.html')
+
+def login_search(request):
+    if request.method == 'POST':
+        print("in search == 'POST'")
+        username_id = request.POST.get('username', None)
+        password_id = request.POST.get('password', None)
+        print(username_id)
+        user = authenticate(request, username=username_id, password=password_id)
+        if user is not None:
+            login(request)
+            return redirect('/weather_app/')
+        else:
+            return redirect('/weather_app/login')
+
+def register(request):
+    return render(request, 'html/register.html')
+
+def register_add(request):
+    # TODO register
+    if request.method == 'POST':
+        new_username = request.POST.get('username', None)
+        new_password = request.POST.get('password', None)
+        new_user = User(username=new_username)
+        new_user.set_password(new_password)
+        new_user.save()
+    else:
+        print("Fail")
+    return redirect('/weather_app/')
