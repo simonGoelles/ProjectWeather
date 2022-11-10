@@ -1,1 +1,64 @@
-/* You can add global styles to this file, and also import other style files */
+body
+{ 
+    background-color: #98cff0;
+    font-family: "Comic Sans MS", sans-serif;  
+    font-size: 2em;
+    padding-left: 200px;
+    padding-top: 40px;
+}
+
+header {
+    padding-left: 200px;
+}
+
+#main {
+    width: 1500px;
+    height: 800px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #f6f6f6;
+    border-radius: 28px;
+}
+
+#temperature {
+    padding-top: 140px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    font-size: 90px;
+}
+
+#information{
+    padding-top: 0px;
+    padding-left: 1080px;
+    font-size: 20px;
+}
+
+#box{
+    width: 1440px;
+    height: 40px;
+    padding-top: 180px;
+    margin-top: 200px;
+    padding-bottom: 40px;
+    padding-left: -200px;
+    padding-right: 40px;
+    background-color: #0088FF;
+    border-radius: 28px;
+}
+
+p{
+    line-height: 20%;
+    font-size: 28px;
+}
+
+h2{
+    font-size: 20px;
+    padding-left: 300px;
+}
+
+article{
+    margin-top: -100px;
+    padding-left: 1100px;
+    font-size: 40px;
+}

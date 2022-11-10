@@ -4,14 +4,14 @@
 ## Teamleader
 ### 03.11.2022, 11:30 - 13:15
 Organisatorisches:
--Terminplanung
--Frontend Dokumentation
--Pflichtenheft Besprechung
+- Terminplanung
+- Frontend Dokumentation
+- Pflichtenheft Besprechung
 
 ## Frontend
 ### 10.11.2022 11:30 - 13:15
--Angular Projekt angelegt
-
+- Angular Projekt angelegt
+- Prototyp angefangen
 
 ## Team
 ### dd-mm-hhhh, 11:30 - 13:15
