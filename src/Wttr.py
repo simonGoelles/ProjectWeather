@@ -23,7 +23,7 @@ class WttrClass(BaseWeatherAPI):
                 in_values = True
                 self.city_name = sheet_ranges["B" + str(i)].value
         if not in_values:
-            raise Exception("Input was not a PLZ!")
+            raise CityNotFound("Input was not a PLZ!")
 
         self.plz = "at-" + _input
 

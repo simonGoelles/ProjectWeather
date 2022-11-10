@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from src import WttrClass
+from src import CityNotFound, WttrClass
 
 # Create your views here.
 def index(request):
@@ -8,16 +8,19 @@ def index(request):
 
 def weather_api(request):
     if request.method == 'POST':
+        output = ""
         m_plz = request.POST.get('plz', None)
 
-        _wttr = WttrClass(m_plz)
-        _wttr.getWeather()
-
-        output = ""
-        for i in _wttr.calls:
-            output += f'{i["plz"]} {i["city_name"]}<br>'
-            output += f'{i["date"]} {i["time"]}<br>'
-            output += f'tmp: {i["temp"]}<br>'
+        try:
+            _wttr = WttrClass(m_plz)
+            _wttr.getWeather()
+        except CityNotFound as e:
+            output += e.message
+        else:
+            for i in _wttr.calls:
+                output += f'{i["plz"]} {i["city_name"]}<br>'
+                output += f'{i["date"]} {i["time"]}<br>'
+                output += f'tmp: {i["temp"]}<br>'
 
         return HttpResponse(output)
     return HttpResponse("no")

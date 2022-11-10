@@ -4,4 +4,5 @@ class CityNotFound(Exception):
     """Raise a City not found Error."""
 
     def __init__(self, message: str) -> None:
-        super().__init__(message)
+        self.message = message
+        super(CityNotFound, self).__init__(message)
