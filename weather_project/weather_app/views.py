@@ -16,8 +16,9 @@ def weather_api(request):
         output = ""
         for i in _wttr.calls:
             output += f'{i["plz"]} {i["city_name"]}<br>'
-            output += f'{i["date"]} {i["time"]}<br>'
+            output += f'{i["date"]}<br>'
             output += f'tmp: {i["temp"]}<br>'
+            output += '<br>'
 
         return HttpResponse(output)
     return HttpResponse("no")

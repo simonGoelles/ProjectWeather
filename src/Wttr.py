@@ -36,18 +36,18 @@ class WttrClass(BaseWeatherAPI):
             _date = ""
             for forecast in weather.forecasts:
                 _date = forecast.date
-                break
+                _temperature = forecast.temperature
 
-            weather_dict = {
-                "city_name": str(self.city_name),
-                "time": f"{weather.current.local_time.hour}:{weather.current.local_time.minute}:{weather.current.local_time.second}",
-                "date": f"{_date.day}-{_date.month}-{_date.year}",
-                "temp": int(weather.current.temperature),
-                "humidity": float(weather.current.humidity),
-                "description": str(weather.current.description),
-                "plz": str(self.plz),
-            }
-            self.calls.append(weather_dict)
+                weather_dict = {
+                    "city_name": str(self.city_name),
+                    "date": f"{_date.day}-{_date.month}-{_date.year}",
+                    "temp": int(forecast.temperature), # int(weather.current.temperature),
+                    "humidity": float(weather.current.humidity),
+                    "description": str(weather.current.description),
+                    "plz": str(self.plz),
+                }
+
+                self.calls.append(weather_dict)
 
             if self.city_name == "Oimjakon":
                 raise CityNotFound("City %s not Found" % str())
