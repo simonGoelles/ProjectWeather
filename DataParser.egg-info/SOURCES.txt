@@ -8,6 +8,7 @@ DataParser.egg-info/not-zip-safe
 DataParser.egg-info/requires.txt
 DataParser.egg-info/top_level.txt
 src/BaseWeatherAPI.py
+src/CityNotFound.py
 src/Wttr.py
 src/__init__.py
 src/main.py

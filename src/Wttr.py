@@ -6,6 +6,7 @@ import python_weather
 from openpyxl import load_workbook
 
 from .BaseWeatherAPI import BaseWeatherAPI
+from .CityNotFound import CityNotFound
 
 
 class WttrClass(BaseWeatherAPI):
@@ -15,18 +16,14 @@ class WttrClass(BaseWeatherAPI):
         sheet_ranges = wb["Plz_Anhang"]
         sheet = wb.active
 
-        # _input = "8160"  # input("Plz: ")
-
-        # print(sheet_ranges.column_dimensions)
         self.city_name = "Weiz"
         in_values = False
         for i in range(1, int(sheet.dimensions[4:]) + 1):
-            # print(sheet_ranges["A1955"])
             if sheet_ranges["A" + str(i)].value == _input:
                 in_values = True
                 self.city_name = sheet_ranges["B" + str(i)].value
         if not in_values:
-            raise Exception("Input was not a PLZ!")
+            raise CityNotFound("Input was not a PLZ!")
 
         self.plz = "at-" + _input
 
@@ -53,4 +50,4 @@ class WttrClass(BaseWeatherAPI):
                 self.calls.append(weather_dict)
 
             if self.city_name == "Oimjakon":
-                raise Exception("City %s not Found" % str())
+                raise CityNotFound("City %s not Found" % str())
