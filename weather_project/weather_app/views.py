@@ -1,6 +1,8 @@
+import sys
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponse
+sys.path.insert(0, "../../")
 from src import CityNotFound, WttrClass
 
 # Create your views here.
