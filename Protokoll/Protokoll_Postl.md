@@ -14,3 +14,7 @@ Beispiel Website Ideen auf One-Note zusammengefügt.
 User Stories für Login-Page und Landing-Page.
 Meilensteindefinition in One-Note zusammengefügt.
 
+
+## Frontend
+### dd-mm-hhhh, 09:45 - 13:15
+An Landing Page in HTML/CSS gearbeitet.
