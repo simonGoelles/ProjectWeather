@@ -2,7 +2,7 @@
 python -m venv venv
 
 in venv/bin/activate add:
-export PYTHONPATH="${PYTHONPATH}:/home/simon/Documents/programming/ProjectWeather/src/"
+export PYTHONPATH="${PYTHONPATH}:[path_to_project]/ProjectWeather/src/"
 
 pip install -r requirements.txt <br />
 pip install -e .
