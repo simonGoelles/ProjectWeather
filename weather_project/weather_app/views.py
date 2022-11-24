@@ -1,8 +1,7 @@
-import sys
 from django.shortcuts import render, redirect
+from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponse
-sys.path.insert(0, "../../")
 from src import CityNotFound, WttrClass
 
 # Create your views here.
@@ -34,10 +33,8 @@ def login(request):
 
 def login_search(request):
     if request.method == 'POST':
-        print("in search == 'POST'")
         username_id = request.POST.get('username', None)
         password_id = request.POST.get('password', None)
-        print(username_id)
         user = authenticate(request, username=username_id, password=password_id)
         if user is not None:
             login(request)
@@ -50,6 +47,7 @@ def register(request):
 
 def register_add(request):
     # TODO register
+    print("in register")
     if request.method == 'POST':
         new_username = request.POST.get('username', None)
         new_password = request.POST.get('password', None)
