@@ -59,8 +59,12 @@ def weather_api(request):
         return HttpResponse(output)
     return HttpResponse("no")
 
-def login(request):
+def _login(request):
     return render(request, 'html/login.html')
+
+def _logout(request):
+    logout(request)
+    return redirect('/weather_app/')
 
 def login_search(request):
     if request.method == 'POST':
@@ -68,8 +72,8 @@ def login_search(request):
         password_id = request.POST.get('password', None)
         user = authenticate(request, username=username_id, password=password_id)
         if user is not None:
-            login(request)
-            return redirect('/weather_app/plz/')
+            login(request, user)
+            return redirect('/weather_app/')
         else:
             return redirect('/weather_app/plz/login')
 
