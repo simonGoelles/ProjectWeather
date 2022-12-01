@@ -45,6 +45,7 @@ class WttrClass(BaseWeatherAPI):
                     "humidity": float(weather.current.humidity),
                     "description": str(weather.current.description),
                     "plz": str(self.plz),
+                    "wind_speed": int(weather.current.wind_speed),
                 }
 
                 self.calls.append(weather_dict)

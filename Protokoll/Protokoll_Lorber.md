@@ -13,4 +13,9 @@ OneNote überarbeitet.
 
 ## Dokumentation
 ### 10-11-2022, 11:25 - 12:45
-User Stories geschrieben
+User Stories geschrieben.
+
+## Dokumentation
+### 24-11-2022, 09:45 - 13:10
+Pflichtenheft angefangen.
+OneNote überarbeitet.

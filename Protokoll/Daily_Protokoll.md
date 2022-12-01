@@ -21,3 +21,24 @@
 
 #### Test
     Testen der Meilensteine des letzen mals
+
+
+### 24.11.2022
+#### Dokumentation
+    Userstorys
+    Aufholen der letzten Dokumentationen
+
+#### Front/Back-End
+    Zusammenfügen der Beiden
+
+#### Betrieb
+    Grober Plan
+
+#### Test
+    Testen der Fortschritte
+
+#### Grafiker
+    Fertigstellen der Icons
+
+#### Teamlead
+    Beginn des Pflichtenheftes
