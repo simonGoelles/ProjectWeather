@@ -13,6 +13,6 @@ Organisatorisches:
 - Angular Projekt angelegt
 - Prototyp angefangen
 
-## Team
-### dd-mm-hhhh, 11:30 - 13:15
-I did something ...
+## Frontend
+### 01.12.2022, 9:45 - 13:15
+- Frontend
