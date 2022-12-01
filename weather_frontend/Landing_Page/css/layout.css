@@ -135,7 +135,7 @@ body {
     margin-left: 80px;
     margin-right: 80px;
     font-size: 40px;
-    margin-top: -70px;
+    margin-top: 20px;
 }
 
 .center form{
@@ -182,15 +182,15 @@ form .txt_field{
 }
 
 #button{
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     margin-left: 20px;;
     border-radius: 100%;
 }
 
 #search{
     margin-left: 340px;
-    height: 40px;
+    height: 28px;
     border-color: #2691d9;
     border-radius: 10px;
 }
@@ -205,9 +205,9 @@ form .txt_field{
 }
 
 #searching{
-    margin-top: 80px;
+    margin-top: -16px;
     margin-bottom: 0px;
-    margin-left: 320px;
+    margin-left: -328px;
 }
 
 #text{
@@ -229,19 +229,19 @@ form .txt_field{
 
 .box{
     position: absolute;
-    bottom: -450px;
+    bottom: -440px;
     transform: translate(-50%, -50%);
     width: 900px;
     height: 200px;
-    background: rgb(228, 210, 210);
+    background: #96c0dd;
     border-radius: 50px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
 }
 
 
 #image_1{
-    margin-left: 360px;
-    margin-top: 80px;
+    margin-left: 328px;
+    margin-top: 30px;
     border-radius: 100%;
 }
 
