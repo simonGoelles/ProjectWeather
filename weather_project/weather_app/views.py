@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, reverse
 from django.contrib.auth.models import User
 from .models import Data
 from django.contrib.auth import authenticate, login, logout
@@ -15,6 +15,9 @@ def plz(request):
 from django.views.decorators.csrf import csrf_exempt
 from django.template import loader
 
+from django.core.serializers.json import DjangoJSONEncoder
+import json
+
 @csrf_exempt
 def data_to_model(request):
     data = Data.objects.all()
@@ -28,7 +31,12 @@ def data_to_model(request):
         else:
             i = _wttr.calls[0]
             _model = Data(city=i["city_name"], temperature=i["temp"], wind_speed=i["wind_speed"], humidity=i["humidity"], date=i["date"], plz=_plz)
-    return render (request,'html/index.html',{"Data":data})
+    return render (request,'html/data.html',{"Data":_model})
+
+
+@csrf_exempt
+def data_view_redirect(request):
+    return redirect('/weather_app/')
 
 
 def weather_api(request):
