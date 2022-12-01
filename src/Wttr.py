@@ -40,7 +40,7 @@ class WttrClass(BaseWeatherAPI):
 
                 weather_dict = {
                     "city_name": str(self.city_name),
-                    "date": f"{_date.day}-{_date.month}-{_date.year}",
+                    "date": f"{_date.day}.{_date.month}.{_date.year}",
                     "temp": int(forecast.temperature), # int(weather.current.temperature),
                     "humidity": float(weather.current.humidity),
                     "description": str(weather.current.description),
