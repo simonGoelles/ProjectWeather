@@ -25,5 +25,11 @@ An Landing Page in HTML/CSS gearbeitet.
 Login Page --> Responsive
 
 ## Frontend
-### 25.11.2022, 09:45 - 13:15
+### 01.12.2022, 09:45 - 13:15
 An Landing Page in HTML/CSS gearbeitet.
+Landing Page --> Responsive
+
+## Frontend
+### 15.12.2022, 09:45 - 13:15
+An Landing Page in HTML/CSS gearbeitet.
+Präsentationsvorbereitung.

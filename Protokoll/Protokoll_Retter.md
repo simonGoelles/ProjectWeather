@@ -22,3 +22,19 @@ Anfangen vom Daily_Protokoll.
 ## Allgemein
 ### 10.11.2022, 9:45 - 13:15
 Helfen mit Github Merge conflicts.
+
+<br />
+
+## Frontend / Backend
+### 24.11.2022, 9:45 - 13:15
+Zusammenfügen von Frontend und Backend.
+
+## Protokoll
+### 24.11.2022, 9:45 - 13:15
+Übergabe von Daily Protokoll an Gölles
+
+<br />
+
+## Frontend / Backend
+### 1.12.2022, 9:45 - 13:15
+Login und Redirects lösen.

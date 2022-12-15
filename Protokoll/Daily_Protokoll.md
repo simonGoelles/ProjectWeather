@@ -23,6 +23,7 @@
     Testen der Meilensteine des letzen mals
 
 
+
 ### 24.11.2022
 #### Dokumentation
     Userstorys
@@ -42,3 +43,48 @@
 
 #### Teamlead
     Beginn des Pflichtenheftes
+
+
+
+### 01.12.2022
+#### Dokumentation
+    Userstorys
+
+#### Front/Back-End
+    Zusammenfügen der Beiden weiterführen
+
+#### Betrieb
+    Grober Plan
+
+#### Test
+    Testen der Fortschritte
+
+#### Grafiker
+    Fertigstellen der Icons
+
+#### Teamlead
+    Weiterführen des Pflichtenheftes
+
+
+
+### 15.12.2022
+#### Dokumentation
+    Userstorys und Pflichtenheft
+
+#### Front/Back-End
+    Zusammenfügen der Beiden weiterführen
+
+#### Betrieb
+    unimportant for now
+
+#### Test
+    Testen der Fortschritte
+
+#### Grafiker
+    Fertigstellen der Icons for real for real
+
+#### Teamlead
+    Weiterführen des Pflichtenheftes und Terminbesprechung
+
+#### Probleme
+    Kevin striked 09:45-13:15
