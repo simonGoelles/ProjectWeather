@@ -23,8 +23,8 @@ body {
 .ui-widget_1 { 
     position:absolute; 
     display:inline-block; 
-    width:80px; 
-    height:80px; 
+    width:160px; 
+    height:160px; 
     margin:30px; 
     margin-top: -20px;
     margin-left: 300px;
@@ -41,8 +41,8 @@ body {
     position:absolute; 
     left:0; 
     right:0; 
-    top:8px; 
-    font-size:14px; 
+    top:28px; 
+    font-size:28px; 
 }
 
 .ui-widget_1 .ui-label { 
@@ -50,10 +50,10 @@ body {
     left:0; 
     bottom:-10px; 
     width:100%; 
-    font-size:10px; 
+    font-size:14px; 
     text-transform:uppercase; 
     color:#888; 
-    font-weight:700 
+    font-weight:800 
 }
 
 .ui-widget_2 { 
@@ -94,11 +94,11 @@ body {
 .ui-widget_3 { 
     position: absolute;
     display:inline-block; 
-    width:80px; 
-    height:80px; 
+    width:160px; 
+    height:160px; 
     margin:30px; 
     margin-left: 300px;
-    margin-top: -120px;
+    margin-top: -200px;
     border:15px solid #54a2be; 
     border-radius:80px; 
     text-align:center; 
@@ -112,8 +112,8 @@ body {
     position:absolute; 
     left:0; 
     right:0; 
-    top:8px; 
-    font-size:14px; 
+    top:28px; 
+    font-size:28px; 
 }
 
 .ui-widget_3 .ui-label { 
@@ -121,10 +121,10 @@ body {
     left:0; 
     bottom:-10px; 
     width:100%; 
-    font-size:10px; 
+    font-size:14px; 
     text-transform:uppercase; 
     color:#888; 
-    font-weight:700 
+    font-weight:800 
 }
 
 
