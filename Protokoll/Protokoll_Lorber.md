@@ -19,3 +19,8 @@ User Stories geschrieben.
 ### 24-11-2022, 09:45 - 13:10
 Pflichtenheft angefangen.
 OneNote überarbeitet.
+
+## Dokumentation
+### 15-12-2022, 09:45 - 13:10
+Pflichtenheft weitergearbeitet.
+Presentation angefangen.
