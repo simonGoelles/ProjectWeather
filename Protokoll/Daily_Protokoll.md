@@ -85,3 +85,6 @@
 
 #### Teamlead
     Weiterführen des Pflichtenheftes und Terminbesprechung
+
+#### Probleme
+    Kevin striked 09:45-13:15
