@@ -16,3 +16,10 @@ Organisatorisches:
 ## Frontend
 ### 01.12.2022, 9:45 - 13:15
 - Frontend
+
+
+## Frontend
+### 01.12.2022, 9:45 - 13:15
+- Frontend bearbeiten
+- Präsentation vorbereiten
+
