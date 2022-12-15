@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: url('./bg.jpg') no-repeat;
+    background: url('bg.jpg') no-repeat;
     background-size: auto;
     position: absolute;
     top: 50%;
@@ -158,6 +158,12 @@ form .txt_field{
     border: none;
     background: none;
     outline: none;
+}
+
+#city{
+    margin-left: 148px;
+    margin-top: -160px;
+    font-size: 28px;
 }
 
 .txt_field label{
