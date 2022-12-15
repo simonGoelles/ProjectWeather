@@ -31,7 +31,7 @@ Zusammenfügen von Frontend und Backend.
 
 ## Protokoll
 ### 24.11.2022, 9:45 - 13:15
-Aufhören mit DailyProtokoll
+Übergabe von Daily Protokoll an Gölles
 
 <br />
 
