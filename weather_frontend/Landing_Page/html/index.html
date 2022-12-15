@@ -1,44 +1,63 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title>Weather</title>
-    <link href="css/favicon.ico" rel="shortcut icon" />
-    <meta charset="UTF-8">
-<<<<<<< HEAD
-    <link rel="stylesheet" href="weather_frontend/Landing_Page/css/layout.css" type="text/css" />
-    
-=======
-    <link rel="stylesheet" href="css/layout.css" type="text/css" />
->>>>>>> 62cb0e1 (no)
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
-</head>
-
-<body>
-    <div id="main">
-            <header>Weather</header>
-            <input type="search" id="search" placeholder="CITY ID...">
-            <input id = "button" name="suchbutton" type="submit" value="&#128269;" >
-            <div id="temperature">
-                <header>18°C</header>
-                <img src="weather_frontend/Landing_Page/pics/Flag.png" width="25" height="16">
-                <h2>Weiz</h2>
-                <article id="information">
-                    <span> <img src="pics/city.png" width="50" height="40"> Weiz</span>
-                    <span> <img src="pics/wind.png" width="50" height="40"> 16 km/h</span>
-                    <span> <img src="pics/humidity.png" width="50" height="40"> 27% </span>
-                </article>
-                    <div id="box">
-                        <article id="date">
-                            <span>Date</span>
-                            <span>10.11.2022</span>
-                        </article>
+    <head>
+        <meta charset="utf-8">
+        <title>Landing Page</title>
+        <link rel="stylesheet" href="css/layout.css">
+    </head>
+    <body>
+        
+        <div class="center">
+            
+            <div>
+                <h1>
+                    <div>
+                        <span style="color: #4883c7">W</span><span style="color: #4385c3">e</span><span style="color: #3f86bf">a</span><span style="color: #3a88bb">t</span><span style="color: #358ab8">h</span><span style="color: #318bb4">e</span><span style="color: #2c8db0">r</span>
                     </div>
+                </h1>
             </div>
-    </div>
-    
-    
-</body>
+            <div id ="image_1">
+                <img src="skiing.gif" style="width:480px;height:380px;">
+            </div>
+            <div id="city"> 
+                <p>Weiz</p>
+            </div>
+        </div>
+
+
+        <div class="ui-widget_2">
+            <h1 class="ui-value">18°C</h1>
+            <span class="ui-label">Temperature</span>
+        </div>
+
+
+        <div class="ui-widget_1">
+            <h1 class="ui-value">20%</h1>
+            <span class="ui-label">Humidity</span>
+        </div>
+
+        <div class="ui-widget_3">
+            <h1 class="ui-value">20 m/s</h1>
+            <span class="ui-label">Wind Speed</span>
+        </div>
+
+        <div class="box">
+            <div class="description">
+                <h2 id="headline">Where do you want to go</h2>
+                <div id="searching">
+                    <input type="search" id="search" placeholder="Choose your destination ...">
+                    <input id = "button" name="suchbutton" type="submit" value="&#128269;" >
+                </div>
+            </div>
+            <div class="description">    
+                <h2 id="headline">Date</h2>
+                <p id="text">Set your Date</p>
+            </div>
+            <div class="description">
+                <h3 id="box_headline">Just go somewhere</h3>
+            </div>
+        </div>
+
+       
+    </body>
 </html>

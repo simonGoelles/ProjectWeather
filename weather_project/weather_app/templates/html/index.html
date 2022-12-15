@@ -14,29 +14,15 @@
 <body>
     <div id="main">
         {% load static %}
-            <header>Weather</header>
-            <form action="send/" method="POST">
-                <input type="search" id="search" name="yes" placeholder="CITY ID...">
-                <input id = "button" name="suchbutton" type="submit" value="&#128269;" >
-            </form>
-            <div id="temperature">
-                <header>{{Data.temperature}}°C</header>
-                <img src="{% static 'pics/Flag.png' %}" width="25" height="16">
-                <h2>Weiz</h2>
-                <article id="information">
-                    <span> <img src="{% static 'pics/city.png' %}" width="50" height="40">{{Data.city}}</span>
-                    <span> <img src="{% static 'pics/wind.png' %}" width="50" height="40"> {{Data.wind_speed}} km/h</span>
-                    <span> <img src="{% static 'pics/humidity.png' %}" width="50" height="40"> {{Data.humidity}}% </span>
-                </article>
-                    <div id="box">
-                        <article id="date">
-                            <span>Date</span>
-                            <span>10.11.2022</span>
-                        </article>
-                    </div>
-            </div>
+        <header>Weather</header>
+        <h3 style="text-align: right; padding-right: 30px;">{{request.user.username}}</h3>
+        <form action="send/" method="POST">
+            <input type="search" id="search" name="yes" placeholder="CITY ID...">
+            <input id = "button" name="suchbutton" type="submit" value="&#128269;" >
+        </form>
+        <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href = '/weather_app/logout';" id="anmeldung">Logout</button>
+        <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href = '/weather_app/plz/login';" id="anmeldung">Login</button>
+        </div>
     </div>
-    
-    
 </body>
 </html>
