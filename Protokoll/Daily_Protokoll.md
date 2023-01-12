@@ -112,3 +112,30 @@
 ![Picture_of_the_board](weather_pic1.PNG)
 
 ![Picture_of_the_board](weather_pic2.PNG)
+
+
+    1. Mehr Kommunikation in den Teams
+    Einen Kommunikationsmaster oder so ernennen, der jede Stunde oder so rumläuft und
+    so nen Status Check macht.
+    Gemeinsames Anschauen von dingen innerhalb der Gruppen
+    Der kann dann auswählen was man in der gruppe eben herzeigen kann
+    Sitzordnung?
+
+    2. Kevin's Streik
+    Statusbericht wenn er streiken will
+    Was er grad macht/wo er grad im Projekt ist
+    Kontrollieren das er auch was macht.
+    Kevin eine Reihe vorsetzen ist wunderbar
+
+    3. Lange Pause/Flowunterbrechung
+    Dynamische Pausen (10min)
+
+    4. Filestruktur
+    Backend in eigenen Ordner
+    Benennung Überarbeiten
+
+    5. Windows Kompatibilität
+    Passt wir nehmen nen Linuxserver.
+
+    6. Filterkaffeemaschine
+    Simon R ist spezialisierter Kaffeeproblemlöser.
