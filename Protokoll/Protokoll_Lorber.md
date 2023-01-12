@@ -24,3 +24,9 @@ OneNote überarbeitet.
 ### 15-12-2022, 09:45 - 13:10
 Pflichtenheft weitergearbeitet.
 Presentation angefangen.
+
+## Dokumentation
+### 12-01-2023, 09:45 - 13:10
+Pflichtenheft weitergearbeitet.
+Daily Protokoll überarbeitet.
+Pflichtenheft das wir selbst in OneNote geschrieben haben gelöscht/übertragen in das richtige.
