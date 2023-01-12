@@ -36,3 +36,26 @@ Besprechung einer überarbeitung der Dokumentationsmethode
 Entwikeln und Planen neuer Userstorys zusammen mit dem Backend Team
 
 
+## Teamleader
+### 09:45 - 10:00
+Rückblick und zielsetzung
+
+
+## Protokoll
+### 10:00 - 11:00
+Aufräumen des Githubs mit Inputhilfe des Backend Teams
+
+## Teamleader
+### 11:00 - 11:35
+Pflichtenheft weiterführen
+
+## 11:35 - 12:15
+### Vortrag
+
+## Teamleader
+## 12:15 - 13:00
+Pflichtenheft weiterführen
+
+## Dokumentation
+### 13:00 - 13:10
+User storys updaten 
