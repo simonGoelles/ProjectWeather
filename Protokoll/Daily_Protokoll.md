@@ -88,3 +88,21 @@
 
 #### Probleme
     Kevin striked 09:45-13:15
+    
+
+
+### 12.01.2023
+#### Backend
+    Single Page usw.
+    
+#### Frontend
+    Updaten
+    
+#### Teamlead
+    Pflichtenheft updaten
+    
+#### Dokumentation
+    Pflichtenheft weiterarbeiten
+    
+#### Protokoll
+    Testprotokoll vorlage
