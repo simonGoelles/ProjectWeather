@@ -108,5 +108,5 @@
     Testprotokoll vorlage
 
 #### Retrospektive
-    ![Picture of the board].(weatherprojekt image1.jpeg)
-    ![Picture of the board2].(weatherprojekt image2.jpeg)
+   ![Picture_of_the_board](weatherprojekt image1.jpeg)
+   ![Picture_of_the_board2](weatherprojekt image2.jpeg)
