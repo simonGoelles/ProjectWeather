@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% load static %}
+    <title>Weather</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/layout.css' %}" content-type="text/css">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+</head>
+
+<body>
+    <div id="main">
+        {% load static %}
+            <header>Weather</header>
+            <form action="send/" method="POST">
+                <input id = "button" name="redirect" type="submit" value="Redirect" >
+            </form>
+            <div id="temperature">
+                <header>{{Data.temperature}}°C</header>
+                <img src="{% static 'pics/Flag.png' %}" width="25" height="16">
+                <h2>Weiz</h2>
+                <article id="information">
+                    <span> <img src="{% static 'pics/city.png' %}" width="50" height="40">{{Data.city}}</span>
+                    <span> <img src="{% static 'pics/wind.png' %}" width="50" height="40"> {{Data.wind_speed}} km/h</span>
+                    <span> <img src="{% static 'pics/humidity.png' %}" width="50" height="40"> {{Data.humidity}}% </span>
+                </article>
+                    <div id="box">
+                        <article id="date">
+                            <span>Date</span>
+                            <span>{{Data.date}}</span>
+                        </article>
+                    </div>
+            </div>
+    </div>
+    
+    
+</body>
+</html>

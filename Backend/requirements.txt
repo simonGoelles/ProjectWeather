@@ -1,0 +1,4 @@
+pyweatherbit
+python_weather
+openpyxl
+django
