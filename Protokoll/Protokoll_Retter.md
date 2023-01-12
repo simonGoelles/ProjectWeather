@@ -38,3 +38,11 @@ Zusammenfügen von Frontend und Backend.
 ## Frontend / Backend
 ### 1.12.2022, 9:45 - 13:15
 Login und Redirects lösen.
+
+<br />
+
+## Frontend / Backend
+### 12.1.2023, 9:45 - 13:15
+Versuchen alles wieder zum laufen zu kriegen.
+Erste tests schreiben.
+
