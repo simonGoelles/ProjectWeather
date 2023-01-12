@@ -136,6 +136,6 @@
 
     5. Windows Kompatibilität
     Passt wir nehmen nen Linuxserver.
-    
+
     6. Filterkaffeemaschine
-    Simon R ist Kaffeeproblemlöser. Aber ein specialister.
+    Simon R ist spezialisierter Kaffeeproblemlöser.
