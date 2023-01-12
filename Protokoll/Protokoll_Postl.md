@@ -33,3 +33,8 @@ Landing Page --> Responsive
 ### 15.12.2022, 09:45 - 13:15
 An Landing Page in HTML/CSS gearbeitet.
 Präsentationsvorbereitung.
+
+## Frontend
+### 12.01.2022, 09:45 - 13:15
+An Landing Page in HTML/CSS gearbeitet.
+Hosting-Recherche.
