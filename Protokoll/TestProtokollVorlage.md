@@ -1,0 +1,13 @@
+# Name
+
+## Description
+    usefull fore ...
+
+## Testcase
+    happens when ... or happens when not ...
+
+## Expected Outcome
+    none or confirmation x ....
+
+## Error output
+    x is not y ... or x is y ...
