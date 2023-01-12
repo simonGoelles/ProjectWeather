@@ -23,3 +23,7 @@ Organisatorisches:
 - Frontend bearbeiten
 - Präsentation vorbereiten
 
+## Frontend & Betrieb
+### 12.01.2022, 9:45 - 13:15
+- Frontend überarbeitet - neues Design
+- für Betrieb recherchiert
