@@ -340,7 +340,7 @@ input[type="submit"]:hover{
     }
 
     img{
-        width: 120%;
+        width: 70%;
     }
 
     #box_headline{
@@ -457,13 +457,13 @@ input[type="submit"]:hover{
 @media only screen and (max-width: 980px){
     #image_1{
         position: relative;
-        margin-left: 110px;
-        margin-top: 80px;
+        margin-left: 190px;
+        margin-top: 120px;
         border-radius: 100%;
     }
 
     img{
-        width: 20%;
+        width: 64%;
     }
 
     .ui-widget_2 .ui-label { 
@@ -514,7 +514,7 @@ input[type="submit"]:hover{
     #city{
         position: fixed;
         margin-left: 128px;
-        margin-top: -280px;
+        margin-top: -180px;
         font-size: 24px;
     }
 
@@ -625,7 +625,7 @@ input[type="submit"]:hover{
 @media only screen and (max-width: 740px){
     #image_1{
         position: relative;
-        margin-left: 2px;
+        margin-left: 110px;
         margin-top: 80px;
         border-radius: 100%;
     }
@@ -685,7 +685,7 @@ input[type="submit"]:hover{
     #city{
         position: fixed;
         margin-left: 60px;
-        margin-top: -360px;
+        margin-top: -148px;
         font-size: 18px;
     }
 
