@@ -33,6 +33,6 @@
 
 ## Dokumentation
 ### 19-01-2023, 09:45 - 13:10
-  Dokumentation über API geschrieben
-  Pflichtenheft
+  Dokumentation über API geschrieben.
+  Pflichtenheft.
   
