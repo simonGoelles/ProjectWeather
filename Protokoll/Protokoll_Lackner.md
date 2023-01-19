@@ -15,3 +15,7 @@ Die Website crashed nicht mehr, wenn ein Error geworfen wird, sondern zeigt dies
 ## Backend
 ### 1.12.2022, 9:45 - 13:15
 Login für Website. Versucht Backend und Frontend zu verbinden über HTTPResponse und oder Redirect.
+
+## Backend
+### 12.01.2023, 9:45 - 13:15
+Update File struktur und gitignore update.
