@@ -37,4 +37,9 @@ Präsentationsvorbereitung.
 ## Frontend - Betrieb
 ### 12.01.2022, 09:45 - 13:15
 An Landing Page in HTML/CSS gearbeitet.
-Hosting-Recherche.
+Hosting-Recherche. NGINX/Apache Recherche.
+
+## Frontend - Betrieb
+### 19.01.2022, 09:45 - 13:15
+An Landing Page in HTML/CSS gearbeitet.
+Responsive.

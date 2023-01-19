@@ -139,3 +139,35 @@
 
     6. Filterkaffeemaschine
     Simon R ist spezialisierter Kaffeeproblemlöser.
+
+
+
+### 19.01.2023
+#### Betrieb 
+    Starten des Aufbaus eines linuxbasierenden webservers
+
+#### Grafiker
+    Hinzufügen von Kevin in die Gruppe.
+    Icons Machen und mit Frontend zusammen am aussehen Arbeiten
+
+#### Backend
+    Zusammenarbeit mit Betrieb wegen Docker
+    Tests Schreiben und Ausbessern
+
+#### Frontend
+    Zusammenarbeit mit Grafiker
+    Versuchen die Responsivness zu verbessern
+
+#### Teamlead
+    Pflichtenheft erweitern
+    Plaunung für die Presentation beginnen
+
+#### Dokumentation
+    Dokumentieren der APIs die verwendet werden
+    Pflichtenheft erweitern
+
+#### Protokoll
+    Erinnern der Kolegen die Protokolle die Fehlen nach zu holen
+
+#### Test
+    Testen mit Backend zusammen
