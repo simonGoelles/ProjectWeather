@@ -16,6 +16,9 @@
 # Grafiker:
 	Wimmer, Schneidhofer
 
+# Kommunikationsmaster:
+    Schneidhofer
+
 # Teamleader:
 	Lazau, Gölles
 
@@ -24,6 +27,3 @@
 
 # Protokoll:
 	Retter, Gölles, Lorber, Schneidhofer
-
-# Kommunikationsmaster:
-    Schneidhofer
