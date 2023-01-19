@@ -244,6 +244,16 @@ form .txt_field{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
 }
 
+.box2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 200px;
+    background: #96c0dd;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
+}
+
 
 #image_1{
     margin-left: 328px;
