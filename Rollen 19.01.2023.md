@@ -24,3 +24,6 @@
 
 # Protokoll:
 	Retter, Gölles, Lorber, Schneidhofer
+
+# Kommunikationsmaster:
+    Schneidhofer
