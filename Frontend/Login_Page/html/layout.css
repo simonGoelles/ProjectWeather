@@ -16,6 +16,7 @@ body {
     transform: translate(-50%, -50%);
     width: 400px;
     background: white;
+    opacity: 0.85;
     border-radius: 10px;
 }
 
