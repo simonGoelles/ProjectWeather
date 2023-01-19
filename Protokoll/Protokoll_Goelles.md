@@ -77,4 +77,8 @@ Dokumentieren der APIs
 
 ## Teamlead
 ## 12:00 - 12:50
-Wiederverwertung der 
+Wiederverwertung der Retrospektive und umsetzung der fehlenden Ideen
+
+## Protokoll 
+## 12:50 - 13:15
+Eigenes Protokoll Zusammenfassen
