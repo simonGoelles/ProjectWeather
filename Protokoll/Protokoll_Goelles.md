@@ -59,3 +59,22 @@ Pflichtenheft weiterführen
 ## Dokumentation
 ### 13:00 - 13:10
 User storys updaten 
+
+
+
+## Teamlead
+## 19.01.2023 09:45 - 10:30
+Pflichtenheft erweitern
+Dauly Protokoll erfahren
+
+## Protokoll
+## 10:30 - 11:00
+Protokoll verfollständigen
+
+## Dokumentation
+## 11:00 - 12:00
+Dokumentieren der APIs
+
+## Teamlead
+## 12:00 - 12:50
+Wiederverwertung der 
