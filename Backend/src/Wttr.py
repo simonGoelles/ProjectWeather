@@ -1,6 +1,4 @@
 import asyncio
-import os
-from datetime import date
 
 import python_weather
 from openpyxl import load_workbook
@@ -12,7 +10,7 @@ from .CityNotFound import CityNotFound
 class WttrClass(BaseWeatherAPI):
     def __init__(self, _input) -> None:
         self.calls = []
-        wb = load_workbook(filename="src/PLZ_Verzeichnis.xlsx")
+        wb = load_workbook(filename="src//PLZ_Verzeichnis.xlsx")
         sheet_ranges = wb["Plz_Anhang"]
         sheet = wb.active
 
@@ -23,7 +21,7 @@ class WttrClass(BaseWeatherAPI):
                 in_values = True
                 self.city_name = sheet_ranges["B" + str(i)].value
         if not in_values:
-            raise CityNotFound("Input was not a PLZ!")
+            raise CityNotFound(f"({_input}) was not a PLZ!")
 
         self.plz = "at-" + _input
 
@@ -41,7 +39,7 @@ class WttrClass(BaseWeatherAPI):
                 weather_dict = {
                     "city_name": str(self.city_name),
                     "date": f"{_date.day}.{_date.month}.{_date.year}",
-                    "temp": int(forecast.temperature), # int(weather.current.temperature),
+                    "temp": int(_temperature), # int(weather.current.temperature),
                     "humidity": float(weather.current.humidity),
                     "description": str(weather.current.description),
                     "plz": str(self.plz),

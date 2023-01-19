@@ -46,3 +46,7 @@ Login und Redirects lösen.
 Versuchen alles wieder zum laufen zu kriegen.
 Erste tests schreiben.
 
+## Backend
+### 19.1.2023, 9:45 - 13:15
+Versuchen docker aufzusetzen.
+
