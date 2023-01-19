@@ -35,12 +35,13 @@ body {
     cursor: pointer;
 }
 
-.login {
+.logout {
     border-color: #c85d11;
     color: black;
     position: absolute;
     margin-top: 35px;
     margin-left: 860px;
+    margin-right: 20px;
     border-radius: 20px;
     font-size: 25px;
     background-color: white;
@@ -106,16 +107,7 @@ body {
     font-family: "Lucida Console", "Monaco", monospace;
 }
 
-.ui-widget_2 .ui-label { 
-    position:absolute; 
-    left:0; 
-    bottom:-10px; 
-    width:100%; 
-    font-size:10px; 
-    text-transform:uppercase; 
-    color:#888; 
-    font-weight:700 
-}
+
 
 
 .ui-widget_3 { 
@@ -189,7 +181,7 @@ form .txt_field{
 #city{
     position: fixed;
     margin-left: 140px;
-    margin-top: -250px;
+    margin-top: -220px;
     font-size: 28px;
 }
 
@@ -274,9 +266,14 @@ form .txt_field{
 
 #image_1{
     position: relative;
-    margin-left: 328px;
-    margin-top: 120px;
+    margin-left: 270px;
+    margin-top: 100px;
     border-radius: 100%;
+}
+
+
+img{
+    width: 70%;
 }
 
 .txt_field input:focus ~ label,
@@ -334,86 +331,466 @@ input[type="submit"]:hover{
 }
 
 
-@media only screen and (max-width: 1100px){
+@media only screen and (max-width: 1200px){
     #image_1{
         position: relative;
-        margin-left: 328px;
+        margin-left: 210px;
         margin-top: 120px;
         border-radius: 100%;
     }
 
+    img{
+        width: 120%;
+    }
+
+    #box_headline{
+        margin-left: -240px;
+        font-size: 50px;
+        font-weight: 150px;
+        position: absolute;
+    }
+
+    .box{
+        width: 800px;
+    }
+    
+    .logout {
+        border-color: #c85d11;
+        color: black;
+        position: absolute;
+        margin-top: 35px;
+        margin-right: 20px;
+        margin-left: 720px;
+    }
+
+    #city{
+        position: fixed;
+        margin-left: 100px;
+        margin-top: -260px;
+        font-size: 28px;
+    }
+
+    .ui-widget_3 { 
+        margin-left: 240px;
+        margin-top: -250px;
+    }
+    
+    .ui-widget_3 .ui-value { 
+        position:absolute; 
+        left:0; 
+        right:0; 
+        top:28px; 
+        font-size:28px; 
+    }
+    
+
+    .ui-widget_2 { 
+        margin-left: -420px;
+        margin-top: -90px;
+    }
+    
+    .ui-widget_2 .ui-value { 
+        position:absolute; 
+        left:40px;  
+        top:-170px; 
+        font-size:100px; 
+        font-family: "Lucida Console", "Monaco", monospace;
+    }
+
+    .ui-widget_1 { 
+        margin-top: -50px;
+        margin-left: 240px;
+    }
+    
+    .ui-widget_1 .ui-value { 
+        position:absolute; 
+        left:0; 
+        right:0; 
+        top:28px; 
+        font-size:28px; 
+    }
+
+   
+    
+    .ui-widget_1 .ui-label { 
+        position:absolute; 
+        left:0; 
+        bottom:-10px; 
+        width:100%; 
+        top: 120px;
+        font-size:14px; 
+        text-transform:uppercase; 
+        color:#888; 
+        font-weight:800 
+    }
+    
+    
     body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    background: rgb(229, 218, 218);
-    background-size: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
+        top: 50%;
+        left: 50%;
+    }
 
-.center {
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-    transform: translate(-50%, -50%);
-    width: 900px;
-    height: 800px;
-    background: rgba(255, 255, 255, 0.921);
-    border-radius: 30px;
-    color: black;
-}
 
-.headline{
-    font-size: 35px;
-    position: absolute;
-    margin-top: -15px;
-}
+
+    .center {
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        transform: translate(-50%, -50%);
+        width: 900px;
+        height: 800px;
+        background: rgba(255, 255, 255, 0.921);
+        border-radius: 30px;
+        color: black;
+    }
+
+    .headline{
+        font-size: 35px;
+        position: absolute;
+        margin-top: -15px;
+    }
 
 
 }
 
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 980px){
     #image_1{
         position: relative;
-        margin-left: 328px;
-        margin-top: 120px;
+        margin-left: 110px;
+        margin-top: 80px;
         border-radius: 100%;
     }
 
+    img{
+        width: 20%;
+    }
+
+    .ui-widget_2 .ui-label { 
+        position:absolute; 
+        left:0; 
+        bottom:-10px; 
+        width:100%; 
+        top: 100px;
+        font-size:14px; 
+        text-transform:uppercase; 
+        color:#888; 
+        font-weight:800 
+    }
+    
+
+    
+
+    #box_headline{
+        margin-left: -120px;
+        font-size: 30px;
+        font-weight: 150px;
+        position: absolute;
+    }
+
+    #headline{
+        margin-left: 20px;
+        top: -40px;
+        font-size: 18px;
+        font-weight: 150px;
+        position: absolute;
+    }
+
+    .box{
+        width: 600px;
+        height: 140px;
+        top: 200px;
+    }
+    
+    .logout {
+        border-color: #c85d11;
+        color: black;
+        position: absolute;
+        margin-top: 35px;
+        margin-right: 20px;
+        margin-left: 520px;
+    }
+
+    #city{
+        position: fixed;
+        margin-left: 128px;
+        margin-top: -280px;
+        font-size: 24px;
+    }
+
+    .ui-widget_3 { 
+        width:140px; 
+        height:140px; 
+        margin-left: 170px;
+        margin-top: -190px;
+    }
+    
+    .ui-widget_3 .ui-value { 
+        position:absolute; 
+        left:0; 
+        right:0; 
+        top:28px; 
+        font-size:24px; 
+    }
+    
+
+    .ui-widget_2 { 
+        margin-left: -420px;
+        margin-top: -90px;
+    }
+    
+    .ui-widget_2 .ui-value { 
+        position:absolute; 
+        left:180px;  
+        top:-70px; 
+        font-size:70px; 
+        font-family: "Lucida Console", "Monaco", monospace;
+    }
+
+    .ui-widget_1 { 
+        position:absolute; 
+        display:inline-block; 
+        width:140px; 
+        height:140px; 
+        margin-top: -20px;
+        margin-left: 170px;
+    }
+    
+    .ui-widget_1 .ui-value { 
+        position:absolute; 
+        left:0; 
+        right:0; 
+        top:28px; 
+        font-size:24px; 
+    }
+
+    #button{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #search{
+        margin-top: 110px;
+        width: 150px;
+        margin-right: -10px;
+    }
+
+   
+    .ui-widget_1 .ui-label { 
+        position:absolute; 
+        left:0; 
+        bottom:-10px; 
+        width:100%; 
+        top: 100px;
+        font-size:14px; 
+        text-transform:uppercase; 
+        color:#888; 
+        font-weight:800 
+    }
+
+ 
+    
     body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    background: rgb(229, 218, 218);
-    background-size: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-
-.center {
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-    transform: translate(-50%, -50%);
-    width: 900px;
-    height: 800px;
-    background: rgba(255, 255, 255, 0.921);
-    border-radius: 30px;
-    color: black;
-}
-
-.headline{
-    font-size: 35px;
-    position: absolute;
-    margin-top: -15px;
-}
+        top: 50%;
+        left: 50%;
+    }
 
 
+
+    .center {
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        transform: translate(-50%, -50%);
+        width: 700px;
+        height: 620px;
+        background: rgba(255, 255, 255, 0.921);
+        border-radius: 30px;
+        color: black;
+    }
+
+    .headline{
+        font-size: 35px;
+        position: absolute;
+        margin-top: -15px;
+    }
+
+    #text{
+        margin-top: 78px;
+        margin-left: 18px;
+    }
 }
+
+
+@media only screen and (max-width: 740px){
+    #image_1{
+        position: relative;
+        margin-left: 2px;
+        margin-top: 80px;
+        border-radius: 100%;
+    }
+
+    img {
+        width: 70%;
+    }
+
+    #box_headline{
+        margin-left: -40px;
+        margin-top: 28px;
+        font-size: 18px;
+        font-weight: 150px;
+        position: absolute;
+    }
+
+
+    #headline{
+        margin-left: 10px;
+        margin-right: 10px;
+        top: -70px;
+        font-size: 12px;
+        font-weight: 120px;
+        position: absolute;
+    }
+
+    .ui-widget_3 .ui-label { 
+        position:absolute; 
+        line-height: 12px;
+        bottom:-10px; 
+        width:100%; 
+        top: 32px;
+        font-size:10px; 
+        text-transform:uppercase; 
+        color:#888; 
+        font-weight:800 
+    }
+
+    .box{
+        width: 400px;
+        height: 100px;
+        top: 120px;
+    }
+    
+    .logout {
+        border-color: #c85d11;
+        color: black;
+        position: absolute;
+        margin-top: 35px;
+        margin-right: 20px;
+        margin-left: 280px;
+        height: 28px;
+        width: 110px;
+        font-size: 20px;
+    }
+
+    #city{
+        position: fixed;
+        margin-left: 60px;
+        margin-top: -360px;
+        font-size: 18px;
+    }
+
+    .ui-widget_3 { 
+        width:70px; 
+        height:70px; 
+        margin-left: 120px;
+        margin-top: -90px;
+    }
+    
+    .ui-widget_3 .ui-value { 
+        position:absolute; 
+        left:0; 
+        right:0; 
+        top:10px; 
+        font-size:10px; 
+    }
+    
+
+    .ui-widget_2 { 
+        margin-left: -400px;
+        margin-top: -90px;
+    }
+    
+    .ui-widget_2 .ui-value { 
+        position:absolute; 
+        left:240px;  
+        top:-20px; 
+        font-size:48px; 
+        font-family: "Lucida Console", "Monaco", monospace;
+    }
+
+    .ui-widget_1 { 
+        position:absolute; 
+        display:inline-block; 
+        width:70px; 
+        height:70px; 
+        margin-left: 120px;
+        margin-top: -20px;
+    }
+    
+    .ui-widget_1 .ui-value { 
+        position:absolute; 
+        left:0; 
+        right:0; 
+        top:7px; 
+        font-size:12px; 
+    }
+
+    #button{
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    #search{
+        margin-top: 70px;
+        width: 80px;
+        height: 20px;
+    }
+
+   
+    .ui-widget_1 .ui-label { 
+        position:absolute; 
+        left:-4px; 
+        bottom:-10px; 
+        width:100%; 
+        top: 40px;
+        font-size:10px; 
+        text-transform:uppercase; 
+        color:#888; 
+        font-weight:800 
+    }
+
+    body {
+        top: 50%;
+        left: 50%;
+    }
+
+    .center {
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        transform: translate(-50%, -50%);
+        width: 420px;
+        height: 400px;
+        background: rgba(255, 255, 255, 0.921);
+        border-radius: 30px;
+        color: black;
+    }
+
+    .headline{
+        font-size: 35px;
+        position: absolute;
+        margin-top: -15px;
+    }
+
+    #text{
+        margin-top: 40px;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+}
+
+
+
 
 
 
