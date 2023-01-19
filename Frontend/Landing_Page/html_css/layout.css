@@ -334,3 +334,86 @@ input[type="submit"]:hover{
 }
 
 
+@media only screen and (max-width: 1100px){
+    #image_1{
+        position: relative;
+        margin-left: 328px;
+        margin-top: 120px;
+        border-radius: 100%;
+    }
+
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: rgb(229, 218, 218);
+    background-size: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 800px;
+    background: rgba(255, 255, 255, 0.921);
+    border-radius: 30px;
+    color: black;
+}
+
+.headline{
+    font-size: 35px;
+    position: absolute;
+    margin-top: -15px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 900px){
+    #image_1{
+        position: relative;
+        margin-left: 328px;
+        margin-top: 120px;
+        border-radius: 100%;
+    }
+
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: rgb(229, 218, 218);
+    background-size: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 800px;
+    background: rgba(255, 255, 255, 0.921);
+    border-radius: 30px;
+    color: black;
+}
+
+.headline{
+    font-size: 35px;
+    position: absolute;
+    margin-top: -15px;
+}
+
+
+}
+
+
+
