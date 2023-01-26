@@ -10,6 +10,17 @@ body {
     left: 50%;
 }
 
+#head{
+    margin-top: 48px;
+    margin-bottom: 12px;
+}
+
+#line{
+    width: 880px;
+    color:rgba(0, 0, 0, 0.3);
+    margin-top: 12px;
+}
+
 .center {
     position: absolute;
     top: 50%;
@@ -336,6 +347,15 @@ input[type="submit"]:hover{
         background-clip: padding-box;
     }
 
+    #head{
+        margin-top: 48px;
+        margin-bottom: -2px;
+    }
+    
+    #line{
+        width: 740px;
+    }
+
     img{
         width: 57%;
     }
@@ -452,6 +472,20 @@ input[type="submit"]:hover{
         margin-left: 230px;
         margin-top: 176px;
         border-radius: 100%;
+    }
+
+    #head{
+        margin-top: 42px;
+        margin-bottom: -2px;
+    }
+    
+    #line{
+        width: 540px;
+        margin-top: 10px;
+    }
+
+    img{
+        width: 57%;
     }
 
     img{
@@ -613,6 +647,20 @@ input[type="submit"]:hover{
         margin-top: 70px;
         border-radius: 100%;
     }
+
+    #head{
+        margin-top: 38px;
+        margin-bottom: -16px;
+        margin-left: -48px;
+        font-size: 24px;
+    }
+    
+    #line{
+        width: 332px;
+        margin-left: -48px;
+        margin-top: 20px;
+    }
+
 
     img {
         width: 58%;
