@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: sans-serif;
     background: rgb(229, 218, 218);
+    background: url('bg.jpg') no-repeat;
     background-size: auto;
     position: absolute;
     top: 50%;
@@ -36,7 +37,7 @@ body {
 }
 
 .logout {
-    border-color: #c85d11;
+    border-color: #1170c8;
     color: black;
     position: absolute;
     margin-top: 35px;
@@ -181,7 +182,7 @@ form .txt_field{
 #city{
     position: fixed;
     margin-left: 140px;
-    margin-top: -220px;
+    margin-top: -270px;
     font-size: 28px;
 }
 
@@ -216,7 +217,7 @@ form .txt_field{
 #search{
     margin-left: 340px;
     height: 28px;
-    border-color: #c85d11;
+    border-color: #1170c8;
     border-radius: 10px;
 }
 
@@ -266,14 +267,14 @@ form .txt_field{
 
 #image_1{
     position: relative;
-    margin-left: 270px;
-    margin-top: 100px;
+    margin-left: 360px;
+    margin-top: 170px;
     border-radius: 100%;
 }
 
 
 img{
-    width: 70%;
+    width: 50%;
 }
 
 .txt_field input:focus ~ label,
@@ -334,13 +335,14 @@ input[type="submit"]:hover{
 @media only screen and (max-width: 1200px){
     #image_1{
         position: relative;
-        margin-left: 210px;
-        margin-top: 120px;
+        margin-left: 290px;
+        margin-top: 180px;
         border-radius: 100%;
+        background-clip: padding-box;
     }
 
     img{
-        width: 70%;
+        width: 57%;
     }
 
     #box_headline{
@@ -355,7 +357,7 @@ input[type="submit"]:hover{
     }
     
     .logout {
-        border-color: #c85d11;
+        border-color: #1170c8;
         color: black;
         position: absolute;
         margin-top: 35px;
@@ -366,7 +368,7 @@ input[type="submit"]:hover{
     #city{
         position: fixed;
         margin-left: 100px;
-        margin-top: -260px;
+        margin-top: -300px;
         font-size: 28px;
     }
 
@@ -457,13 +459,13 @@ input[type="submit"]:hover{
 @media only screen and (max-width: 980px){
     #image_1{
         position: relative;
-        margin-left: 190px;
-        margin-top: 120px;
+        margin-left: 230px;
+        margin-top: 176px;
         border-radius: 100%;
     }
 
     img{
-        width: 64%;
+        width: 50%;
     }
 
     .ui-widget_2 .ui-label { 
@@ -503,7 +505,7 @@ input[type="submit"]:hover{
     }
     
     .logout {
-        border-color: #c85d11;
+        border-color: #1170c8;
         color: black;
         position: absolute;
         margin-top: 35px;
@@ -514,7 +516,7 @@ input[type="submit"]:hover{
     #city{
         position: fixed;
         margin-left: 128px;
-        margin-top: -180px;
+        margin-top: -230px;
         font-size: 24px;
     }
 
@@ -625,13 +627,13 @@ input[type="submit"]:hover{
 @media only screen and (max-width: 740px){
     #image_1{
         position: relative;
-        margin-left: 110px;
-        margin-top: 80px;
+        margin-left: 140px;
+        margin-top: 70px;
         border-radius: 100%;
     }
 
     img {
-        width: 70%;
+        width: 58%;
     }
 
     #box_headline{
@@ -671,7 +673,7 @@ input[type="submit"]:hover{
     }
     
     .logout {
-        border-color: #c85d11;
+        border-color: #1170c8;
         color: black;
         position: absolute;
         margin-top: 35px;
