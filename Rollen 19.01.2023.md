@@ -5,7 +5,7 @@
 	Lackner, Retter
 
 # Betrieb:
-	Postl, Lazau
+	Postl, Lazau, Retter
 
 # Dokumentation:
 	Lorber, Gölles
@@ -26,4 +26,4 @@
 	Lackner, Schneidhofer, Retter
 
 # Protokoll:
-	Retter, Gölles, Lorber, Schneidhofer
+	Gölles, Lorber, Schneidhofer

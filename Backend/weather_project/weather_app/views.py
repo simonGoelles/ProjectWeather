@@ -13,10 +13,6 @@ def plz(request):
     return render(request, 'html/plz.html')
 
 from django.views.decorators.csrf import csrf_exempt
-from django.template import loader
-
-from django.core.serializers.json import DjangoJSONEncoder
-import json
 
 @csrf_exempt
 def data_to_model(request):
