@@ -29,3 +29,7 @@ Heute haben wir den Großteil der Stunde für unsere Retrospektive verwendet und
 ## Team Grafik/Frontend
 ### 19.01.2023, 11:30 - 13:15
 Ich habe heute endlich richtig angefangen zu arbeiten und endlich das erste Icon finalisiert und ein weiteres angefangen.
+
+## Team Grafik/Frontende
+### 26.01.2023, 11:30 - 13:15
+Weiter an den Icons gearbeitet. Ich hab heute zwei weitere Icons fertig gemacht, bei dem zweiten gibt es allerdings noch ein problem mit dem Export. Es glitcht sehr herum und ist einfach nicht richtig gerendet. Muss mich das nächste Mal darum kümmern.
