@@ -35,7 +35,6 @@ body {
 
 .center {
     position: absolute;
-    font-family: "Lucida Sans";
     top: 50%;
     bottom: 50%;
     transform: translate(-50%, -50%);
@@ -83,7 +82,7 @@ body {
     border-bottom-color:#fff 
 }
 
-.ui-widget_1 .ui-value {
+.ui-widget_1 .ui-value { 
     position:absolute; 
     left:0; 
     right:0; 
@@ -102,8 +101,7 @@ body {
     font-weight:800 
 }
 
-.ui-widget_2 {
-    font-family: "Lucida Sans";
+.ui-widget_2 { 
     position: absolute;
     display:inline-block; 
     width:120px; 
@@ -119,16 +117,14 @@ body {
 }
 
 .ui-widget_2 .ui-value { 
-    font-family: "Tahoma";
-    font-weight: 200;
     position:absolute; 
     left:-30px;  
     top:-110px; 
     font-size:120px; 
+    font-family: "Lucida Console", "Monaco", monospace;
 }
 
 .ui-widget_3 { 
-    font-family: "Lucida Sans";
     position: absolute;
     display:inline-block; 
     width:160px; 
@@ -163,6 +159,7 @@ body {
     color:#888; 
     font-weight:800 
 }
+
 
 .center h1{
     text-align: left;
@@ -232,7 +229,7 @@ form .txt_field{
     margin-left: 20px;;
     border-radius: 100%;
     background-color: #ffffff;
-    border-color: #7492c1;
+    border-color: #1170c8;
 }
 
 #search{
@@ -285,12 +282,14 @@ form .txt_field{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px;
 }
 
+
 #image_1{
     position: relative;
     margin-left: 360px;
     margin-top: 170px;
     border-radius: 100%;
 }
+
 
 img{
     width: 50%;
@@ -425,6 +424,7 @@ input[type="submit"]:hover{
         top:28px; 
         font-size:28px; 
     }
+    
 
     .ui-widget_2 { 
         margin-left: -420px;
@@ -436,8 +436,7 @@ input[type="submit"]:hover{
         left:40px;  
         top:-170px; 
         font-size:100px; 
-        font-family: "Tahoma";
-        font-weight: 200;
+        font-family: "Lucida Console", "Monaco", monospace;
     }
 
     .ui-widget_1 { 
@@ -576,7 +575,7 @@ input[type="submit"]:hover{
     #city{
         position: fixed;
         margin-left: 128px;
-        margin-top: 120px;
+        margin-top: -72px;
         font-size: 24px;
     }
 
@@ -605,8 +604,7 @@ input[type="submit"]:hover{
         left:180px;  
         top:-70px; 
         font-size:70px; 
-        font-family: "Tahoma";
-        font-weight: 200;
+        font-family: "Lucida Console", "Monaco", monospace;
     }
 
     .ui-widget_1 { 
@@ -787,8 +785,7 @@ input[type="submit"]:hover{
         left:240px;  
         top:-20px; 
         font-size:48px; 
-        font-family: "Tahoma";
-        font-weight: 200;
+        font-family: "Lucida Console", "Monaco", monospace;
     }
 
     .ui-widget_1 { 
