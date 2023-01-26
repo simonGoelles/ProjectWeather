@@ -694,7 +694,7 @@ input[type="submit"]:hover{
     
     #cloud{
         margin-top: 20px;
-        margin-left: 80px;
+        margin-left: 100px;
         width: 16%;
     }
     
@@ -768,7 +768,7 @@ input[type="submit"]:hover{
     #city{
         position: fixed;
         margin-left: 60px;
-        margin-top: -40px;
+        margin-top: -60px;
         font-size: 18px;
     }
 
