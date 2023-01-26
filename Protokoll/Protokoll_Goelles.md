@@ -82,3 +82,22 @@ Wiederverwertung der Retrospektive und umsetzung der fehlenden Ideen
 ## Protokoll 
 ## 12:50 - 13:15
 Eigenes Protokoll Zusammenfassen
+
+
+
+
+## Teamlead
+## 26.01.2023, 09:45 - 10:00
+Besprechung zukünftiger Pläne
+
+## Dokumentation
+## 10:00 - 11:30
+Präsentationsüberarbeitung
+
+## Protokoll
+## 11:30 - 12:00
+Protokollüberprüfung
+
+## Teamlead
+## 12:00 - 13:00
+Mit Protokollüberprüfung das Pflichtenheft updaten
