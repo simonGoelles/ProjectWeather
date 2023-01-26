@@ -23,14 +23,14 @@ body {
 }
 
 #head{
-    margin-top: 48px;
+    margin-top: 28px;
     margin-bottom: 12px;
 }
 
 #line{
     width: 880px;
     color:rgba(0, 0, 0, 0.3);
-    margin-top: 12px;
+    margin-top: 28px;
 }
 
 .center {
@@ -373,12 +373,13 @@ input[type="submit"]:hover{
     
 
     #head{
-        margin-top: 48px;
+        margin-top: 28px;
         margin-bottom: -2px;
     }
     
     #line{
         width: 740px;
+        margin-top: 20px;
     }
 
     img{
@@ -513,13 +514,13 @@ input[type="submit"]:hover{
     
 
     #head{
-        margin-top: 42px;
+        margin-top: 28px;
         margin-bottom: -2px;
     }
     
     #line{
         width: 540px;
-        margin-top: 10px;
+        margin-top: 22px;
     }
 
     img{
@@ -700,7 +701,7 @@ input[type="submit"]:hover{
     
 
     #head{
-        margin-top: 38px;
+        margin-top: 28px;
         margin-bottom: -16px;
         margin-left: -48px;
         font-size: 24px;
@@ -709,7 +710,7 @@ input[type="submit"]:hover{
     #line{
         width: 332px;
         margin-left: -48px;
-        margin-top: 20px;
+        margin-top: 28px;
     }
 
 
