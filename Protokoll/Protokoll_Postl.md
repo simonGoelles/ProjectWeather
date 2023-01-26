@@ -43,3 +43,8 @@ Hosting-Recherche. NGINX/Apache Recherche.
 ### 19.01.2022, 09:45 - 13:15
 An Landing Page in HTML/CSS gearbeitet.
 Responsive.
+
+## Frontend 
+### 19.01.2022, 09:45 - 13:15
+An Landing Page in HTML/CSS gearbeitet.
+Responsive.

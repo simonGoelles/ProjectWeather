@@ -14,7 +14,7 @@ Heute wollte ich endlich anfangen die Icons auch wirklich zu animieren. Mir ist 
 
 ## Grafiker
 ### 01.12.2022, 11:30 - 13:15
-Heute habe ich mich umgeschat nach weiteren Möglichkeiten die Icons zu animieren. Ich hab mir gedacht, dass ich aufhören sollte die ganze Sache so überzuklomplizieren udn bin einfach in Premiere Pro gegangen und habe dort versucht das Ganze zu machen. War aber tatsächlich eine sehr schlechte Idee weil ich vergessen habe wie unglaublich nervig die Masken in Premiere Pro sind und habe mich die ganze Stunde lang sehr abgemüht und hab noch kein Icon fertigbekommen.
+Heute habe ich mich umgeschat nach weiteren Möglichkeiten die Icons zu animieren. Ich hab mir gedacht, dass ich aufhören sollte die ganze Sache so überzukomplizieren und bin einfach in Premiere Pro gegangen und habe dort versucht das Ganze zu machen. War aber tatsächlich eine sehr schlechte Idee weil ich vergessen habe wie unglaublich nervig die Masken in Premiere Pro sind und habe mich die ganze Stunde lang sehr abgemüht und hab noch kein Icon fertigbekommen.
 
 
 ## Team Grafik/Frontend

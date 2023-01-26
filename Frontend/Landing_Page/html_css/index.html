@@ -9,10 +9,11 @@
         
         <div class="center">
             <div>
-                <button class="logout">LOGOUT</button>
+                <button class="logout">Logout</button>
                 <h1>
                     <div class="headline">
-                        <p>Weather</p>
+                        <p id="head"> Weather</p>
+                        <hr id="line" style="border-width: 1px;">
                     </div>
                 </h1>
             </div>
@@ -24,11 +25,9 @@
             </div>
         </div>
 
-
         <div class="ui-widget_2">
             <h1 class="ui-value">18°</h1>
         </div>
-
 
         <div class="ui-widget_1">
             <h1 class="ui-value">20%</h1>
@@ -45,7 +44,7 @@
                 <h2 id="headline">Where do you want to go</h2>
                 <div id="searching">
                     <input type="search" id="search" placeholder="Choose your destination ...">
-                    <input id = "button" name="suchbutton" type="submit" value="&#128269;" >
+                    <button id="button" name="suchbutton" type="submit"><img id="searchbutton" src="search.png"></button>
                 </div>
             </div>
             <div class="description">    
@@ -54,6 +53,9 @@
             </div>
             <div class="description">
                 <h3 id="box_headline">Just go somewhere</h3>
+            </div>
+            <div id="sun">
+                <img src="SunIcon.gif">
             </div>
         </div>
 
