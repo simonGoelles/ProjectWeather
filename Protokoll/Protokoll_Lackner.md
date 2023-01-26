@@ -30,3 +30,7 @@ Update Installation Guide and ReadMe
 Add a Test to see if the server is currently running
 Look for options to host the website. 
 
+## Backend
+### 26.01.2023, 9:45 - 13:15
+Cleanup unused imports from views.py
+
