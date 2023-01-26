@@ -10,6 +10,18 @@ body {
     left: 50%;
 }
 
+#sun{
+    margin-top: -438px;
+    margin-left: 28px;
+    width: 16%;
+}
+
+#cloud{
+    margin-top: 100px;
+    margin-left: 210px;
+    width: 16%;
+}
+
 #head{
     margin-top: 48px;
     margin-bottom: 12px;
@@ -183,7 +195,7 @@ form .txt_field{
 #city{
     position: fixed;
     margin-left: 140px;
-    margin-top: -270px;
+    margin-top: -110px;
     font-size: 28px;
 }
 
@@ -347,6 +359,19 @@ input[type="submit"]:hover{
         background-clip: padding-box;
     }
 
+    #sun{
+        margin-top: -440px;
+        margin-left: 20px;
+        width: 16%;
+    }
+    
+    #cloud{
+        margin-top: 80px;
+        margin-left: 180px;
+        width: 16%;
+    }
+    
+
     #head{
         margin-top: 48px;
         margin-bottom: -2px;
@@ -383,7 +408,7 @@ input[type="submit"]:hover{
     #city{
         position: fixed;
         margin-left: 100px;
-        margin-top: -300px;
+        margin-top: -110px;
         font-size: 28px;
     }
 
@@ -474,6 +499,19 @@ input[type="submit"]:hover{
         border-radius: 100%;
     }
 
+    #sun{
+        margin-top: -320px;
+        margin-left: 70px;
+        width: 16%;
+    }
+    
+    #cloud{
+        margin-top: 50px;
+        margin-left: 190px;
+        width: 16%;
+    }
+    
+
     #head{
         margin-top: 42px;
         margin-bottom: -2px;
@@ -537,7 +575,7 @@ input[type="submit"]:hover{
     #city{
         position: fixed;
         margin-left: 128px;
-        margin-top: -230px;
+        margin-top: 120px;
         font-size: 24px;
     }
 
