@@ -15,7 +15,6 @@ body {
     margin-top: -20px;
     margin-left: -20px;
     width: 20%;
-    z-index: 0;
 }
 
 #head{
@@ -42,7 +41,7 @@ body {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
-.headline{
+.headline {
     font-size: 35px;
     position: absolute;
     margin-top: -15px;
@@ -356,9 +355,10 @@ input[type="submit"]:hover{
     }
 
     #sun{
-        margin-top: -400px;
-        margin-left: 20px;
-        width: 16%;
+        position: absolute;
+        margin-top: -20px;
+        margin-left: -20px;
+        width: 17%;
     }
 
     #head{
@@ -397,8 +397,8 @@ input[type="submit"]:hover{
 
     #city{
         position: fixed;
-        margin-left: 100px;
-        margin-top: -110px;
+        margin-left: 110px;
+        margin-top: -280px;
         font-size: 28px;
     }
 
@@ -491,9 +491,10 @@ input[type="submit"]:hover{
     }
 
     #sun{
-        margin-top: -320px;
-        margin-left: 70px;
-        width: 16%;
+        position: absolute;
+        margin-top: -10px;
+        margin-left: -10px;
+        width: 15%;
     }
 
     #head{
@@ -559,7 +560,7 @@ input[type="submit"]:hover{
     #city{
         position: fixed;
         margin-left: 128px;
-        margin-top: -72px;
+        margin-top: -190px;
         font-size: 24px;
     }
 
@@ -672,9 +673,10 @@ input[type="submit"]:hover{
     }
 
     #sun{
-        margin-top: -190px;
-        margin-left: 20px;
-        width: 16%;
+        position: absolute;
+        margin-top: -5px;
+        margin-left: 2px;
+        width: 13%;
     }
     
     #cloud{
@@ -753,7 +755,7 @@ input[type="submit"]:hover{
     #city{
         position: fixed;
         margin-left: 60px;
-        margin-top: -60px;
+        margin-top: -120px;
         font-size: 18px;
     }
 
