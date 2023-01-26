@@ -19,3 +19,9 @@ Login für Website. Versucht Backend und Frontend zu verbinden über HTTPRespons
 ## Backend
 ### 12.01.2023, 9:45 - 13:15
 Update File struktur und gitignore update.
+
+## Backend
+### 19.01.2023, 9:45 - 13:15
+Try to implement tests with django.
+Update Installation Guide and ReadMe
+

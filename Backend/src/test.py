@@ -1,4 +1,4 @@
-from CityNotFound import CityNotFound
+from .CityNotFound import CityNotFound
 
 try:
     raise CityNotFound("Test")
