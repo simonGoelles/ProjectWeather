@@ -148,7 +148,7 @@
 
 #### Grafiker
     Hinzufügen von Kevin in die Gruppe.
-    Icons Machen und mit Frontend zusammen am aussehen Arbeiten
+    Working on Icons
 
 #### Backend
     Zusammenarbeit mit Betrieb wegen Docker
@@ -172,3 +172,31 @@
 #### Test
     Testen mit Backend zusammen
 
+
+
+### 26.01.2023
+#### Betrieb
+    Docker als Möglichkeit identifiziert und implementationsversuche durchgeführt
+
+#### Grafiker
+    Working on Icons
+
+#### Backend
+    Test schreiben
+    Betrieb Helfen
+
+#### Frontend
+    UI überarbeiten
+
+#### Teamlead
+    Pflichtenheft und Präsentationsmanagement
+
+#### Dokumentation
+    Überarbeiten des Githubs und der Präsentation
+
+#### Protokoll
+    Daily Protokoll
+    Erinnerungen an die instandhaltung der individuellen Protokolle
+
+#### Test
+    Testing der neuen tests
