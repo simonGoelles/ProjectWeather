@@ -11,15 +11,11 @@ body {
 }
 
 #sun{
-    margin-top: -438px;
-    margin-left: 28px;
-    width: 16%;
-}
-
-#cloud{
-    margin-top: 100px;
-    margin-left: 210px;
-    width: 16%;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -20px;
+    width: 20%;
+    z-index: 0;
 }
 
 #head{
@@ -55,7 +51,7 @@ body {
 .logout {
     border-color: #7492c1;
     position: absolute;
-    margin-top: 35px;
+    margin-top: 52px;
     margin-left: 860px;
     margin-right: 20px;
     border-radius: 20px;
@@ -119,9 +115,10 @@ body {
 .ui-widget_2 .ui-value { 
     position:absolute; 
     left:-30px;  
-    top:-110px; 
+    top:-150px; 
     font-size:120px; 
-    font-family: "Lucida Console", "Monaco", monospace;
+    font-family: "Verdana";
+    font-weight: 200;
 }
 
 .ui-widget_3 { 
@@ -160,7 +157,6 @@ body {
     font-weight:800 
 }
 
-
 .center h1{
     text-align: left;
     padding: 20px 80px 20px 40px;
@@ -193,9 +189,9 @@ form .txt_field{
 }
 
 #city{
-    position: fixed;
+    position: absolute;
     margin-left: 140px;
-    margin-top: -110px;
+    margin-top: -290px;
     font-size: 28px;
 }
 
@@ -360,17 +356,10 @@ input[type="submit"]:hover{
     }
 
     #sun{
-        margin-top: -440px;
+        margin-top: -400px;
         margin-left: 20px;
         width: 16%;
     }
-    
-    #cloud{
-        margin-top: 80px;
-        margin-left: 180px;
-        width: 16%;
-    }
-    
 
     #head{
         margin-top: 48px;
@@ -418,7 +407,7 @@ input[type="submit"]:hover{
     }
     
     .ui-widget_3 .ui-value { 
-        position:absolute; 
+        position: absolute; 
         left:0; 
         right:0; 
         top:28px; 
@@ -436,7 +425,8 @@ input[type="submit"]:hover{
         left:40px;  
         top:-170px; 
         font-size:100px; 
-        font-family: "Lucida Console", "Monaco", monospace;
+        font-family: "Verdana";
+        font-weight: 200;
     }
 
     .ui-widget_1 { 
@@ -504,13 +494,6 @@ input[type="submit"]:hover{
         margin-left: 70px;
         width: 16%;
     }
-    
-    #cloud{
-        margin-top: 50px;
-        margin-left: 190px;
-        width: 16%;
-    }
-    
 
     #head{
         margin-top: 42px;
@@ -604,7 +587,8 @@ input[type="submit"]:hover{
         left:180px;  
         top:-70px; 
         font-size:70px; 
-        font-family: "Lucida Console", "Monaco", monospace;
+        font-family: "Verdana";
+        font-weight: 200;
     }
 
     .ui-widget_1 { 
@@ -691,13 +675,6 @@ input[type="submit"]:hover{
         margin-left: 20px;
         width: 16%;
     }
-    
-    #cloud{
-        margin-top: 20px;
-        margin-left: 80px;
-        width: 16%;
-    }
-    
 
     #head{
         margin-top: 38px;
@@ -798,7 +775,8 @@ input[type="submit"]:hover{
         left:240px;  
         top:-20px; 
         font-size:48px; 
-        font-family: "Lucida Console", "Monaco", monospace;
+        font-family: "Verdana";
+        font-weight: 200;
     }
 
     .ui-widget_1 { 
