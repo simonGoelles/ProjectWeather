@@ -1,8 +1,13 @@
 # ProjectWeather
-python -m venv venv
+This is a Server application that shows you the current weather in your desired city.
+It will probably be a single page application.
 
-in venv/bin/activate add:
-export PYTHONPATH="${PYTHONPATH}:[path_to_project]/ProjectWeather/src/"
+## Used APIs
+For the Weather:
+- https://wttr.in/
 
-pip install -r requirements.txt <br />
-pip install -e .
+## Server
+The Server will be running with:
+- Docker
+- nginx
+
