@@ -29,3 +29,8 @@ Eigentlich sollte ich eine Powerpoint über unser Projekt zum präsentieren mach
 ## Grafiker / Kommunikationsmaster
 ### 19.01.2022, 09:45 - 13:15
 Nach einer kurzen Besprechung der Lage bin ich jetzt dem Grafik-Team zugeteilt. Als erste Aufgabe hatte ich, ein Bild zu finden, welches das Front-End-Team als Hintergrund für den Login-Screen verwenden konnte. Das vorherige Bild passte thematisch eher in Richtung Weltraum als in den Bereich "Wetter App", deswegen habe ich auf Pixabay nach einem Bild gesucht, wo man einen Horizont mit Wolken sieht. Nach dem das passende Bild dem Front-End-Team geschickt worden war, hat das gesamte Projektteam sich zu einer Lagebesprechung eingefunden um noch einmal über verschiedene Maßnahmen, die letztes Mal beschlossen wurden, zu reden. Ich habe mich daraufhin als Kommunikationsmaster aufstellen lassen und die Rolle bekommen. Jetzt muss ich ab und zu bei den anderen Leuten vorbeischauen und fragen, wie es so bei der Arbeit von denen steht.
+
+
+## Grafiker / Präsentator / Kommunikationsmaster
+### 26.01.2022, 09:45 - 13:15
+Als erstes habe ich ein weiteres Hintergrundbild für die Wetter-App auf pixabay.com gesucht und eines gefunden. Nachdem das dem Front-End Team übermittelt war, habe ich mich als der Typ, der das Produkt anschließend einem breiten Publikum präsentieren wird, dementsprechend angefangen, auf die Präsentation (welche nächste Woche stattfindet) vorzubereiten. Außerdem bin ich als Kommunikationsmaster natürlich dazu verpflichtet, jede Stunde kurz mit jedem aus dem Team zu reden, und zu fragen, wie es den Leuten bei ihrer Arbeit geht. Im Grunde habe ich mich aber größtenteils für das Präsentieren bereit gemacht. Hi Philipp schaust du Ninjago?
