@@ -43,7 +43,7 @@ body {
 
 .headline {
     font-size: 35px;
-    position: absolute;
+    /* position: absolute; */
     margin-top: -15px;
 }
 
@@ -58,6 +58,7 @@ body {
     background-color: white;
     height: 40px;
     width: 120px;
+    z-index: 0;
 }
 
 .login {
@@ -71,6 +72,7 @@ body {
     background-color: white;
     height: 40px;
     width: 120px;
+    z-index: 0;
 }
 
 .ui-widget_1 { 

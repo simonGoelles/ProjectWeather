@@ -16,14 +16,15 @@ from django.views.decorators.csrf import csrf_exempt
 
 @csrf_exempt
 def data_to_model(request):
-    data = Data.objects.all()
+    # data = Data.objects.all()
+    _model = None
     if request.method == 'POST':
         _plz = request.POST.get('yes', None)
         try:
             _wttr = WttrClass(_plz)
             _wttr.getWeather()
-        except CityNotFound as e:
-            output += e.message
+        except CityNotFound:
+            pass
         else:
             i = _wttr.calls[0]
             _model = Data(city=i["city_name"], temperature=i["temp"], wind_speed=i["wind_speed"], humidity=i["humidity"], date=i["date"], plz=_plz)
