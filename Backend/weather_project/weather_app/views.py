@@ -7,7 +7,7 @@ from src import CityNotFound, WttrClass
 
 # Create your views here.
 def index(request):
-    return render(request, 'html/new_index.html')
+    return render(request, 'html/new_new_index.html')
 
 def plz(request):
     return render(request, 'html/plz.html')
@@ -27,7 +27,7 @@ def data_to_model(request):
         else:
             i = _wttr.calls[0]
             _model = Data(city=i["city_name"], temperature=i["temp"], wind_speed=i["wind_speed"], humidity=i["humidity"], date=i["date"], plz=_plz)
-    return render (request,'html/new_data.html',{"Data":_model})
+    return render (request,'html/new_new_index.html',{"Data":_model})
 
 
 @csrf_exempt
@@ -56,7 +56,7 @@ def weather_api(request):
     return HttpResponse("no")
 
 def _login(request):
-    return render(request, 'html/login.html')
+    return render(request, 'html/new_login.html')
 
 def _logout(request):
     logout(request)
