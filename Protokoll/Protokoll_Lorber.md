@@ -28,7 +28,9 @@
 - Dokumentation über API geschrieben.
 - Pflichtenheft.
   
-### 26-01-2023,09:45 - 13:10
+### 26-01-2023, 09:45 - 13:10
 - Meilensteine in Pflichtenheft geschrieben.
 - Presentation überarbeitet.
 
+### 02-02-2023, 09:45 - 13:10
+- An Pflichtenheft weitergearbeitet.
