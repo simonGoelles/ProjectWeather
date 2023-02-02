@@ -14,7 +14,7 @@
 	Postl, Lazau, Retter, Wimmer
 
 # Grafiker:
-	Wimmer, Schneidhofer
+	Wimmer
 
 # Kommunikationsmaster:
     Schneidhofer
