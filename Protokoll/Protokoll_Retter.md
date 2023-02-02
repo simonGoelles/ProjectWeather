@@ -52,3 +52,8 @@ Erste tests schreiben.
 ### 19.1.2023, 9:45 - 13:15
 Versuchen docker aufzusetzen.
 
+<br />
+
+## Betrieb
+### 19.1.2023, 9:45 - 13:15
+Azure hosting system aufsetzen und starten.

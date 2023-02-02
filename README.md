@@ -8,6 +8,4 @@ For the Weather:
 
 ## Server
 The Server will be running with:
-- Docker
-- nginx
-
+- Azure

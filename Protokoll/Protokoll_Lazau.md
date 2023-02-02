@@ -27,3 +27,7 @@ Organisatorisches:
 ### 12.01.2022, 9:45 - 13:15
 - Frontend überarbeitet - neues Design
 - für Betrieb recherchiert
+
+## Frontend
+### 12.01.2022, 9:45 - 13:15
+- Frontend überarbeitet
