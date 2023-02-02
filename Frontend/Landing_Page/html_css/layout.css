@@ -60,6 +60,19 @@ body {
     width: 120px;
 }
 
+.login {
+    border-color: #7492c1;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 700px;
+    margin-right: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: white;
+    height: 40px;
+    width: 120px;
+}
+
 .ui-widget_1 { 
     position:absolute; 
     display:inline-block; 
@@ -858,9 +871,3 @@ input[type="submit"]:hover{
         font-size: 12px;
     }
 }
-
-
-
-
-
-
